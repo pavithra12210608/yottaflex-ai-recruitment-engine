@@ -1,6 +1,7 @@
 """Comprehensive Validation Engine for YottaFlex AI Recruitment Engine."""
 from typing import Dict, List, Any, Optional
 from datetime import datetime, timezone
+import math
 import pandas as pd
 
 from app.config import (
@@ -19,6 +20,32 @@ from app.config import (
     ANOMALY_SALARY_OUTSIDE_BAND,
     ANOMALY_CLOSED_ROLE_ACTIVE_APP,
 )
+
+
+def _parse_date(val: Any) -> Optional[datetime]:
+    """Safely normalizes date/datetime values from string, datetime, or date objects, ignoring null/NaN."""
+    if val is None or pd.isna(val):
+        return None
+    if isinstance(val, float):
+        if math.isnan(val):
+            return None
+        return None
+    if isinstance(val, str):
+        val_str = val.strip()
+        if not val_str or val_str.lower() in ("nan", "none", "null", "nat"):
+            return None
+        val_str = val_str.replace("Z", "").split(".")[0]
+        try:
+            if "T" in val_str:
+                return datetime.strptime(val_str, "%Y-%m-%dT%H:%M:%S")
+            return datetime.strptime(val_str, "%Y-%m-%d")
+        except ValueError:
+            return None
+    if isinstance(val, datetime):
+        return val
+    if hasattr(val, "year") and hasattr(val, "month") and hasattr(val, "day"):
+        return datetime(val.year, val.month, val.day)
+    return None
 
 
 class ValidationEngine:
@@ -170,8 +197,10 @@ class ValidationEngine:
         # 1. Requisition open_date <= close_date
         invalid_req_dates = []
         for req in self.entities.get("job_requisitions", []):
-            if req.get("close_date"):
-                if req["open_date"] > req["close_date"]:
+            open_dt = _parse_date(req.get("open_date"))
+            close_dt = _parse_date(req.get("close_date"))
+            if open_dt and close_dt:
+                if open_dt > close_dt:
                     invalid_req_dates.append(req["requisition_id"])
 
         if not invalid_req_dates:
@@ -182,8 +211,11 @@ class ValidationEngine:
         # 2. Offer expiration_date >= offer_date
         invalid_offers = []
         for off in self.entities.get("offers", []):
-            if off["offer_date"] > off["expiration_date"]:
-                invalid_offers.append(off["offer_id"])
+            off_dt = _parse_date(off.get("offer_date"))
+            exp_dt = _parse_date(off.get("expiration_date"))
+            if off_dt and exp_dt:
+                if off_dt > exp_dt:
+                    invalid_offers.append(off["offer_id"])
 
         if not invalid_offers:
             self.add_finding("DATE_ORDERING", "offers", None, "PASS", "Offer dates precede expiration dates.")
