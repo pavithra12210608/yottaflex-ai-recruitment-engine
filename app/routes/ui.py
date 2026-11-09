@@ -38,28 +38,44 @@ router = APIRouter()
 def dashboard_view(request: Request, db: Session = Depends(get_db)):
     """Render main operations dashboard."""
     stats = get_dashboard_summary(db)
-    return templates.TemplateResponse("dashboard.html", {"request": request, "stats": stats})
+    return templates.TemplateResponse(
+        request=request,
+        name="dashboard.html",
+        context={"request": request, "stats": stats},
+    )
 
 
 @router.get("/ui/requisitions", response_class=HTMLResponse)
 def requisitions_view(request: Request, db: Session = Depends(get_db)):
     """Render requisitions catalog."""
     reqs = db.query(JobRequisition).all()
-    return templates.TemplateResponse("requisitions.html", {"request": request, "requisitions": reqs})
+    return templates.TemplateResponse(
+        request=request,
+        name="requisitions.html",
+        context={"request": request, "requisitions": reqs},
+    )
 
 
 @router.get("/ui/candidates", response_class=HTMLResponse)
 def candidates_view(request: Request, db: Session = Depends(get_db)):
     """Render candidates listing."""
     candidates = db.query(Candidate).limit(100).all()
-    return templates.TemplateResponse("candidates.html", {"request": request, "candidates": candidates})
+    return templates.TemplateResponse(
+        request=request,
+        name="candidates.html",
+        context={"request": request, "candidates": candidates},
+    )
 
 
 @router.get("/ui/applications", response_class=HTMLResponse)
 def applications_view(request: Request, db: Session = Depends(get_db)):
     """Render applications pipeline."""
     apps = db.query(Application).limit(150).all()
-    return templates.TemplateResponse("applications.html", {"request": request, "applications": apps})
+    return templates.TemplateResponse(
+        request=request,
+        name="applications.html",
+        context={"request": request, "applications": apps},
+    )
 
 
 @router.get("/ui/applications/{application_id}", response_class=HTMLResponse)
@@ -68,28 +84,44 @@ def application_detail_view(application_id: str, request: Request, db: Session =
     app_record = db.query(Application).filter(Application.application_id == application_id).first()
     if not app_record:
         raise HTTPException(status_code=404, detail="Application not found")
-    return templates.TemplateResponse("application_detail.html", {"request": request, "app": app_record})
+    return templates.TemplateResponse(
+        request=request,
+        name="application_detail.html",
+        context={"request": request, "app": app_record},
+    )
 
 
 @router.get("/ui/interviews", response_class=HTMLResponse)
 def interviews_view(request: Request, db: Session = Depends(get_db)):
     """Render scheduled interviews and feedback."""
     interviews = db.query(Interview).limit(100).all()
-    return templates.TemplateResponse("interviews.html", {"request": request, "interviews": interviews})
+    return templates.TemplateResponse(
+        request=request,
+        name="interviews.html",
+        context={"request": request, "interviews": interviews},
+    )
 
 
 @router.get("/ui/offers", response_class=HTMLResponse)
 def offers_view(request: Request, db: Session = Depends(get_db)):
     """Render offers and decision tracker."""
     offers = db.query(Offer).limit(100).all()
-    return templates.TemplateResponse("offers.html", {"request": request, "offers": offers})
+    return templates.TemplateResponse(
+        request=request,
+        name="offers.html",
+        context={"request": request, "offers": offers},
+    )
 
 
 @router.get("/ui/anomalies", response_class=HTMLResponse)
 def anomalies_view(request: Request):
     """Render intentional ground-truth negative scenarios."""
     anomalies = load_ground_truth()
-    return templates.TemplateResponse("anomalies.html", {"request": request, "anomalies": anomalies})
+    return templates.TemplateResponse(
+        request=request,
+        name="anomalies.html",
+        context={"request": request, "anomalies": anomalies},
+    )
 
 
 @router.get("/ui/validation", response_class=HTMLResponse)
@@ -98,7 +130,11 @@ def validation_view(request: Request):
     entities = load_entities_from_csv()
     validator = ValidationEngine(entities)
     report = validator.run_all_validations()
-    return templates.TemplateResponse("validation.html", {"request": request, "report": report})
+    return templates.TemplateResponse(
+        request=request,
+        name="validation.html",
+        context={"request": request, "report": report},
+    )
 
 
 @router.get("/ui/reproducibility", response_class=HTMLResponse)
@@ -133,8 +169,9 @@ def reproducibility_view(request: Request):
             })
 
         return templates.TemplateResponse(
-            "reproducibility.html",
-            {
+            request=request,
+            name="reproducibility.html",
+            context={
                 "request": request,
                 "comparison": comparison,
                 "is_reproducible": is_reproducible,
