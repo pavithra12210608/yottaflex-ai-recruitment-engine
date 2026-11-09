@@ -1,0 +1,600 @@
+feedback_id,interview_id,interviewer_id,technical_rating,communication_rating,problem_solving_rating,overall_recommendation,notes,submitted_at
+FB-INT-2026-000001-EMP-0001,INT-2026-000001,EMP-0001,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-03-02T16:30:00
+FB-INT-2026-000003-EMP-0003,INT-2026-000003,EMP-0003,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-03-04T16:30:00
+FB-INT-2026-000004-EMP-0004,INT-2026-000004,EMP-0004,4,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-03-05T16:30:00
+FB-INT-2026-000005-EMP-0005,INT-2026-000005,EMP-0005,2,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-03-06T16:30:00
+FB-INT-2026-000006-EMP-0006,INT-2026-000006,EMP-0006,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-03-07T16:30:00
+FB-INT-2026-000007-EMP-0007,INT-2026-000007,EMP-0007,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-03-08T16:30:00
+FB-INT-2026-000008-EMP-0008,INT-2026-000008,EMP-0008,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-03-09T16:30:00
+FB-INT-2026-000009-EMP-0009,INT-2026-000009,EMP-0009,4,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-03-10T16:30:00
+FB-INT-2026-000010-EMP-0010,INT-2026-000010,EMP-0010,3,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-03-11T16:30:00
+FB-INT-2026-000011-EMP-0011,INT-2026-000011,EMP-0011,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-03-12T16:30:00
+FB-INT-2026-000012-EMP-0012,INT-2026-000012,EMP-0012,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-03-13T16:30:00
+FB-INT-2026-000013-EMP-0013,INT-2026-000013,EMP-0013,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-03-14T16:30:00
+FB-INT-2026-000014-EMP-0014,INT-2026-000014,EMP-0014,2,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-03-15T16:30:00
+FB-INT-2026-000015-EMP-0015,INT-2026-000015,EMP-0015,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-03-16T16:30:00
+FB-INT-2026-000016-EMP-0016,INT-2026-000016,EMP-0016,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-03-17T16:30:00
+FB-INT-2026-000017-EMP-0017,INT-2026-000017,EMP-0017,3,3,4,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-03-18T16:30:00
+FB-INT-2026-000018-EMP-0018,INT-2026-000018,EMP-0018,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-03-19T16:30:00
+FB-INT-2026-000019-EMP-0019,INT-2026-000019,EMP-0019,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-03-20T16:30:00
+FB-INT-2026-000020-EMP-0020,INT-2026-000020,EMP-0020,3,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-03-21T16:30:00
+FB-INT-2026-000021-EMP-0021,INT-2026-000021,EMP-0021,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-03-22T16:30:00
+FB-INT-2026-000022-EMP-0022,INT-2026-000022,EMP-0022,3,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-03-23T16:30:00
+FB-INT-2026-000023-EMP-0023,INT-2026-000023,EMP-0023,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-03-24T16:30:00
+FB-INT-2026-000024-EMP-0024,INT-2026-000024,EMP-0024,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-03-25T16:30:00
+FB-INT-2026-000025-EMP-0025,INT-2026-000025,EMP-0025,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-03-26T16:30:00
+FB-INT-2026-000026-EMP-0026,INT-2026-000026,EMP-0026,5,5,2,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-03-27T16:30:00
+FB-INT-2026-000027-EMP-0027,INT-2026-000027,EMP-0027,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-03-28T16:30:00
+FB-INT-2026-000028-EMP-0028,INT-2026-000028,EMP-0028,4,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-03-29T16:30:00
+FB-INT-2026-000029-EMP-0029,INT-2026-000029,EMP-0029,4,3,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-03-30T16:30:00
+FB-INT-2026-000030-EMP-0030,INT-2026-000030,EMP-0030,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-03-31T16:30:00
+FB-INT-2026-000031-EMP-0031,INT-2026-000031,EMP-0031,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-01T16:30:00
+FB-INT-2026-000032-EMP-0032,INT-2026-000032,EMP-0032,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-04-02T16:30:00
+FB-INT-2026-000033-EMP-0033,INT-2026-000033,EMP-0033,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-04-03T16:30:00
+FB-INT-2026-000034-EMP-0034,INT-2026-000034,EMP-0034,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-04-04T16:30:00
+FB-INT-2026-000035-EMP-0035,INT-2026-000035,EMP-0035,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-05T16:30:00
+FB-INT-2026-000036-EMP-0036,INT-2026-000036,EMP-0036,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-04-06T16:30:00
+FB-INT-2026-000037-EMP-0037,INT-2026-000037,EMP-0037,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-04-07T16:30:00
+FB-INT-2026-000038-EMP-0038,INT-2026-000038,EMP-0038,3,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-04-08T16:30:00
+FB-INT-2026-000039-EMP-0039,INT-2026-000039,EMP-0039,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-09T16:30:00
+FB-INT-2026-000040-EMP-0040,INT-2026-000040,EMP-0040,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-04-10T16:30:00
+FB-INT-2026-000041-EMP-0041,INT-2026-000041,EMP-0041,4,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-04-11T16:30:00
+FB-INT-2026-000042-EMP-0042,INT-2026-000042,EMP-0042,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-04-12T16:30:00
+FB-INT-2026-000043-EMP-0043,INT-2026-000043,EMP-0043,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-04-13T16:30:00
+FB-INT-2026-000044-EMP-0044,INT-2026-000044,EMP-0044,2,3,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-04-14T16:30:00
+FB-INT-2026-000045-EMP-0045,INT-2026-000045,EMP-0045,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-04-15T16:30:00
+FB-INT-2026-000046-EMP-0046,INT-2026-000046,EMP-0046,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-04-16T16:30:00
+FB-INT-2026-000047-EMP-0047,INT-2026-000047,EMP-0047,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-17T16:30:00
+FB-INT-2026-000048-EMP-0048,INT-2026-000048,EMP-0048,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-04-18T16:30:00
+FB-INT-2026-000049-EMP-0049,INT-2026-000049,EMP-0049,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-04-19T16:30:00
+FB-INT-2026-000050-EMP-0050,INT-2026-000050,EMP-0050,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-04-20T16:30:00
+FB-INT-2026-000051-EMP-0001,INT-2026-000051,EMP-0001,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-04-21T16:30:00
+FB-INT-2026-000052-EMP-0002,INT-2026-000052,EMP-0002,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-04-22T16:30:00
+FB-INT-2026-000053-EMP-0003,INT-2026-000053,EMP-0003,3,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-04-23T16:30:00
+FB-INT-2026-000054-EMP-0004,INT-2026-000054,EMP-0004,3,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-04-24T16:30:00
+FB-INT-2026-000055-EMP-0005,INT-2026-000055,EMP-0005,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-25T16:30:00
+FB-INT-2026-000056-EMP-0006,INT-2026-000056,EMP-0006,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-04-26T16:30:00
+FB-INT-2026-000057-EMP-0007,INT-2026-000057,EMP-0007,3,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-04-27T16:30:00
+FB-INT-2026-000058-EMP-0008,INT-2026-000058,EMP-0008,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-04-28T16:30:00
+FB-INT-2026-000059-EMP-0009,INT-2026-000059,EMP-0009,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-04-29T16:30:00
+FB-INT-2026-000060-EMP-0010,INT-2026-000060,EMP-0010,2,3,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-04-30T16:30:00
+FB-INT-2026-000061-EMP-0011,INT-2026-000061,EMP-0011,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-01T16:30:00
+FB-INT-2026-000062-EMP-0012,INT-2026-000062,EMP-0012,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-05-02T16:30:00
+FB-INT-2026-000063-EMP-0013,INT-2026-000063,EMP-0013,3,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-05-03T16:30:00
+FB-INT-2026-000064-EMP-0014,INT-2026-000064,EMP-0014,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-05-04T16:30:00
+FB-INT-2026-000065-EMP-0015,INT-2026-000065,EMP-0015,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-05T16:30:00
+FB-INT-2026-000066-EMP-0016,INT-2026-000066,EMP-0016,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-05-06T16:30:00
+FB-INT-2026-000067-EMP-0017,INT-2026-000067,EMP-0017,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-05-07T16:30:00
+FB-INT-2026-000068-EMP-0018,INT-2026-000068,EMP-0018,4,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-05-08T16:30:00
+FB-INT-2026-000069-EMP-0019,INT-2026-000069,EMP-0019,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-09T16:30:00
+FB-INT-2026-000070-EMP-0020,INT-2026-000070,EMP-0020,2,5,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-05-10T16:30:00
+FB-INT-2026-000071-EMP-0021,INT-2026-000071,EMP-0021,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-05-11T16:30:00
+FB-INT-2026-000072-EMP-0022,INT-2026-000072,EMP-0022,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-05-12T16:30:00
+FB-INT-2026-000073-EMP-0023,INT-2026-000073,EMP-0023,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-13T16:30:00
+FB-INT-2026-000074-EMP-0024,INT-2026-000074,EMP-0024,4,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-05-14T16:30:00
+FB-INT-2026-000075-EMP-0025,INT-2026-000075,EMP-0025,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-05-15T16:30:00
+FB-INT-2026-000076-EMP-0026,INT-2026-000076,EMP-0026,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-05-16T16:30:00
+FB-INT-2026-000077-EMP-0027,INT-2026-000077,EMP-0027,4,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-17T16:30:00
+FB-INT-2026-000078-EMP-0028,INT-2026-000078,EMP-0028,4,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-05-18T16:30:00
+FB-INT-2026-000079-EMP-0029,INT-2026-000079,EMP-0029,3,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-05-19T16:30:00
+FB-INT-2026-000080-EMP-0030,INT-2026-000080,EMP-0030,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-05-20T16:30:00
+FB-INT-2026-000081-EMP-0031,INT-2026-000081,EMP-0031,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-21T16:30:00
+FB-INT-2026-000082-EMP-0032,INT-2026-000082,EMP-0032,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-05-22T16:30:00
+FB-INT-2026-000083-EMP-0033,INT-2026-000083,EMP-0033,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-05-23T16:30:00
+FB-INT-2026-000084-EMP-0034,INT-2026-000084,EMP-0034,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-05-24T16:30:00
+FB-INT-2026-000085-EMP-0035,INT-2026-000085,EMP-0035,3,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-05-25T16:30:00
+FB-INT-2026-000086-EMP-0036,INT-2026-000086,EMP-0036,5,3,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-05-26T16:30:00
+FB-INT-2026-000087-EMP-0037,INT-2026-000087,EMP-0037,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-05-27T16:30:00
+FB-INT-2026-000088-EMP-0038,INT-2026-000088,EMP-0038,2,5,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-05-28T16:30:00
+FB-INT-2026-000089-EMP-0039,INT-2026-000089,EMP-0039,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-05-29T16:30:00
+FB-INT-2026-000090-EMP-0040,INT-2026-000090,EMP-0040,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-05-30T16:30:00
+FB-INT-2026-000091-EMP-0041,INT-2026-000091,EMP-0041,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-05-31T16:30:00
+FB-INT-2026-000092-EMP-0042,INT-2026-000092,EMP-0042,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-06-01T16:30:00
+FB-INT-2026-000093-EMP-0043,INT-2026-000093,EMP-0043,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-06-02T16:30:00
+FB-INT-2026-000094-EMP-0044,INT-2026-000094,EMP-0044,3,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-06-03T16:30:00
+FB-INT-2026-000095-EMP-0045,INT-2026-000095,EMP-0045,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-06-04T16:30:00
+FB-INT-2026-000096-EMP-0046,INT-2026-000096,EMP-0046,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-06-05T16:30:00
+FB-INT-2026-000097-EMP-0047,INT-2026-000097,EMP-0047,3,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-06-06T16:30:00
+FB-INT-2026-000098-EMP-0048,INT-2026-000098,EMP-0048,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-06-07T16:30:00
+FB-INT-2026-000099-EMP-0049,INT-2026-000099,EMP-0049,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-06-08T16:30:00
+FB-INT-2026-000100-EMP-0050,INT-2026-000100,EMP-0050,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-06-09T16:30:00
+FB-INT-2026-000101-EMP-0001,INT-2026-000101,EMP-0001,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-06-10T16:30:00
+FB-INT-2026-000102-EMP-0002,INT-2026-000102,EMP-0002,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-06-11T16:30:00
+FB-INT-2026-000103-EMP-0003,INT-2026-000103,EMP-0003,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-06-12T16:30:00
+FB-INT-2026-000104-EMP-0004,INT-2026-000104,EMP-0004,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-06-13T16:30:00
+FB-INT-2026-000105-EMP-0005,INT-2026-000105,EMP-0005,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-06-14T16:30:00
+FB-INT-2026-000106-EMP-0006,INT-2026-000106,EMP-0006,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-06-15T16:30:00
+FB-INT-2026-000107-EMP-0007,INT-2026-000107,EMP-0007,5,4,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-06-16T16:30:00
+FB-INT-2026-000108-EMP-0008,INT-2026-000108,EMP-0008,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-06-17T16:30:00
+FB-INT-2026-000109-EMP-0009,INT-2026-000109,EMP-0009,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-06-18T16:30:00
+FB-INT-2026-000110-EMP-0010,INT-2026-000110,EMP-0010,3,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-06-19T16:30:00
+FB-INT-2026-000111-EMP-0011,INT-2026-000111,EMP-0011,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-06-20T16:30:00
+FB-INT-2026-000112-EMP-0012,INT-2026-000112,EMP-0012,5,3,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-06-21T16:30:00
+FB-INT-2026-000113-EMP-0013,INT-2026-000113,EMP-0013,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-06-22T16:30:00
+FB-INT-2026-000114-EMP-0014,INT-2026-000114,EMP-0014,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-06-23T16:30:00
+FB-INT-2026-000115-EMP-0015,INT-2026-000115,EMP-0015,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-06-24T16:30:00
+FB-INT-2026-000116-EMP-0016,INT-2026-000116,EMP-0016,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-06-25T16:30:00
+FB-INT-2026-000117-EMP-0017,INT-2026-000117,EMP-0017,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-06-26T16:30:00
+FB-INT-2026-000118-EMP-0018,INT-2026-000118,EMP-0018,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-06-27T16:30:00
+FB-INT-2026-000119-EMP-0019,INT-2026-000119,EMP-0019,3,4,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-06-28T16:30:00
+FB-INT-2026-000120-EMP-0020,INT-2026-000120,EMP-0020,3,3,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-06-29T16:30:00
+FB-INT-2026-000121-EMP-0021,INT-2026-000121,EMP-0021,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-06-30T16:30:00
+FB-INT-2026-000122-EMP-0022,INT-2026-000122,EMP-0022,2,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-07-01T16:30:00
+FB-INT-2026-000123-EMP-0023,INT-2026-000123,EMP-0023,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-07-02T16:30:00
+FB-INT-2026-000124-EMP-0024,INT-2026-000124,EMP-0024,2,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-07-03T16:30:00
+FB-INT-2026-000125-EMP-0025,INT-2026-000125,EMP-0025,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-07-04T16:30:00
+FB-INT-2026-000126-EMP-0026,INT-2026-000126,EMP-0026,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-07-05T16:30:00
+FB-INT-2026-000127-EMP-0027,INT-2026-000127,EMP-0027,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-07-06T16:30:00
+FB-INT-2026-000128-EMP-0028,INT-2026-000128,EMP-0028,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-07-07T16:30:00
+FB-INT-2026-000129-EMP-0029,INT-2026-000129,EMP-0029,2,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-07-08T16:30:00
+FB-INT-2026-000130-EMP-0030,INT-2026-000130,EMP-0030,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-07-09T16:30:00
+FB-INT-2026-000131-EMP-0031,INT-2026-000131,EMP-0031,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-07-10T16:30:00
+FB-INT-2026-000132-EMP-0032,INT-2026-000132,EMP-0032,4,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-07-11T16:30:00
+FB-INT-2026-000133-EMP-0033,INT-2026-000133,EMP-0033,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-07-12T16:30:00
+FB-INT-2026-000134-EMP-0034,INT-2026-000134,EMP-0034,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-07-13T16:30:00
+FB-INT-2026-000135-EMP-0035,INT-2026-000135,EMP-0035,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-07-14T16:30:00
+FB-INT-2026-000136-EMP-0036,INT-2026-000136,EMP-0036,3,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-07-15T16:30:00
+FB-INT-2026-000137-EMP-0037,INT-2026-000137,EMP-0037,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-07-16T16:30:00
+FB-INT-2026-000138-EMP-0038,INT-2026-000138,EMP-0038,2,5,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-07-17T16:30:00
+FB-INT-2026-000139-EMP-0039,INT-2026-000139,EMP-0039,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-07-18T16:30:00
+FB-INT-2026-000140-EMP-0040,INT-2026-000140,EMP-0040,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-07-19T16:30:00
+FB-INT-2026-000141-EMP-0041,INT-2026-000141,EMP-0041,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-07-20T16:30:00
+FB-INT-2026-000142-EMP-0042,INT-2026-000142,EMP-0042,3,3,4,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-07-21T16:30:00
+FB-INT-2026-000143-EMP-0043,INT-2026-000143,EMP-0043,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-07-22T16:30:00
+FB-INT-2026-000144-EMP-0044,INT-2026-000144,EMP-0044,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-07-23T16:30:00
+FB-INT-2026-000145-EMP-0045,INT-2026-000145,EMP-0045,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-07-24T16:30:00
+FB-INT-2026-000146-EMP-0046,INT-2026-000146,EMP-0046,4,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-07-25T16:30:00
+FB-INT-2026-000147-EMP-0047,INT-2026-000147,EMP-0047,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-07-26T16:30:00
+FB-INT-2026-000148-EMP-0048,INT-2026-000148,EMP-0048,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-07-27T16:30:00
+FB-INT-2026-000149-EMP-0049,INT-2026-000149,EMP-0049,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-07-28T16:30:00
+FB-INT-2026-000150-EMP-0050,INT-2026-000150,EMP-0050,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-07-29T16:30:00
+FB-INT-2026-000151-EMP-0001,INT-2026-000151,EMP-0001,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-07-30T16:30:00
+FB-INT-2026-000152-EMP-0002,INT-2026-000152,EMP-0002,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-07-31T16:30:00
+FB-INT-2026-000153-EMP-0003,INT-2026-000153,EMP-0003,2,3,4,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-08-01T16:30:00
+FB-INT-2026-000154-EMP-0004,INT-2026-000154,EMP-0004,3,5,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-08-02T16:30:00
+FB-INT-2026-000155-EMP-0005,INT-2026-000155,EMP-0005,2,4,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-08-03T16:30:00
+FB-INT-2026-000156-EMP-0006,INT-2026-000156,EMP-0006,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-08-04T16:30:00
+FB-INT-2026-000157-EMP-0007,INT-2026-000157,EMP-0007,4,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-05T16:30:00
+FB-INT-2026-000158-EMP-0008,INT-2026-000158,EMP-0008,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-08-06T16:30:00
+FB-INT-2026-000159-EMP-0009,INT-2026-000159,EMP-0009,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-08-07T16:30:00
+FB-INT-2026-000160-EMP-0010,INT-2026-000160,EMP-0010,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-08-08T16:30:00
+FB-INT-2026-000161-EMP-0011,INT-2026-000161,EMP-0011,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-09T16:30:00
+FB-INT-2026-000162-EMP-0012,INT-2026-000162,EMP-0012,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-08-10T16:30:00
+FB-INT-2026-000163-EMP-0013,INT-2026-000163,EMP-0013,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-08-11T16:30:00
+FB-INT-2026-000164-EMP-0014,INT-2026-000164,EMP-0014,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-08-12T16:30:00
+FB-INT-2026-000165-EMP-0015,INT-2026-000165,EMP-0015,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-13T16:30:00
+FB-INT-2026-000166-EMP-0016,INT-2026-000166,EMP-0016,3,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-08-14T16:30:00
+FB-INT-2026-000167-EMP-0017,INT-2026-000167,EMP-0017,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-08-15T16:30:00
+FB-INT-2026-000168-EMP-0018,INT-2026-000168,EMP-0018,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-08-16T16:30:00
+FB-INT-2026-000169-EMP-0019,INT-2026-000169,EMP-0019,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-17T16:30:00
+FB-INT-2026-000170-EMP-0020,INT-2026-000170,EMP-0020,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-08-18T16:30:00
+FB-INT-2026-000171-EMP-0021,INT-2026-000171,EMP-0021,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-08-19T16:30:00
+FB-INT-2026-000172-EMP-0022,INT-2026-000172,EMP-0022,3,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-08-20T16:30:00
+FB-INT-2026-000173-EMP-0023,INT-2026-000173,EMP-0023,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-21T16:30:00
+FB-INT-2026-000174-EMP-0024,INT-2026-000174,EMP-0024,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-08-22T16:30:00
+FB-INT-2026-000175-EMP-0025,INT-2026-000175,EMP-0025,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-08-23T16:30:00
+FB-INT-2026-000176-EMP-0026,INT-2026-000176,EMP-0026,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-08-24T16:30:00
+FB-INT-2026-000177-EMP-0027,INT-2026-000177,EMP-0027,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-25T16:30:00
+FB-INT-2026-000178-EMP-0028,INT-2026-000178,EMP-0028,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-08-26T16:30:00
+FB-INT-2026-000179-EMP-0029,INT-2026-000179,EMP-0029,3,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-08-27T16:30:00
+FB-INT-2026-000180-EMP-0030,INT-2026-000180,EMP-0030,2,5,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-08-28T16:30:00
+FB-INT-2026-000181-EMP-0031,INT-2026-000181,EMP-0031,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-08-29T16:30:00
+FB-INT-2026-000182-EMP-0032,INT-2026-000182,EMP-0032,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-08-30T16:30:00
+FB-INT-2026-000183-EMP-0033,INT-2026-000183,EMP-0033,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-08-31T16:30:00
+FB-INT-2026-000184-EMP-0034,INT-2026-000184,EMP-0034,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-09-01T16:30:00
+FB-INT-2026-000185-EMP-0035,INT-2026-000185,EMP-0035,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-02T16:30:00
+FB-INT-2026-000186-EMP-0036,INT-2026-000186,EMP-0036,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-09-03T16:30:00
+FB-INT-2026-000187-EMP-0037,INT-2026-000187,EMP-0037,4,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-09-04T16:30:00
+FB-INT-2026-000188-EMP-0038,INT-2026-000188,EMP-0038,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-09-05T16:30:00
+FB-INT-2026-000189-EMP-0039,INT-2026-000189,EMP-0039,3,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-09-06T16:30:00
+FB-INT-2026-000190-EMP-0040,INT-2026-000190,EMP-0040,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-09-07T16:30:00
+FB-INT-2026-000191-EMP-0041,INT-2026-000191,EMP-0041,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-09-08T16:30:00
+FB-INT-2026-000192-EMP-0042,INT-2026-000192,EMP-0042,3,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-09-09T16:30:00
+FB-INT-2026-000193-EMP-0043,INT-2026-000193,EMP-0043,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-10T16:30:00
+FB-INT-2026-000194-EMP-0044,INT-2026-000194,EMP-0044,2,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-09-11T16:30:00
+FB-INT-2026-000195-EMP-0045,INT-2026-000195,EMP-0045,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-09-12T16:30:00
+FB-INT-2026-000196-EMP-0046,INT-2026-000196,EMP-0046,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-09-13T16:30:00
+FB-INT-2026-000197-EMP-0047,INT-2026-000197,EMP-0047,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-14T16:30:00
+FB-INT-2026-000198-EMP-0048,INT-2026-000198,EMP-0048,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-09-15T16:30:00
+FB-INT-2026-000199-EMP-0049,INT-2026-000199,EMP-0049,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-09-16T16:30:00
+FB-INT-2026-000200-EMP-0050,INT-2026-000200,EMP-0050,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-09-17T16:30:00
+FB-INT-2026-000201-EMP-0001,INT-2026-000201,EMP-0001,4,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-18T16:30:00
+FB-INT-2026-000202-EMP-0002,INT-2026-000202,EMP-0002,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-09-19T16:30:00
+FB-INT-2026-000203-EMP-0003,INT-2026-000203,EMP-0003,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-09-20T16:30:00
+FB-INT-2026-000204-EMP-0004,INT-2026-000204,EMP-0004,4,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-09-21T16:30:00
+FB-INT-2026-000205-EMP-0005,INT-2026-000205,EMP-0005,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-22T16:30:00
+FB-INT-2026-000206-EMP-0006,INT-2026-000206,EMP-0006,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-09-23T16:30:00
+FB-INT-2026-000207-EMP-0007,INT-2026-000207,EMP-0007,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-09-24T16:30:00
+FB-INT-2026-000208-EMP-0008,INT-2026-000208,EMP-0008,3,3,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-09-25T16:30:00
+FB-INT-2026-000209-EMP-0009,INT-2026-000209,EMP-0009,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-09-26T16:30:00
+FB-INT-2026-000210-EMP-0010,INT-2026-000210,EMP-0010,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-09-27T16:30:00
+FB-INT-2026-000211-EMP-0011,INT-2026-000211,EMP-0011,3,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-09-28T16:30:00
+FB-INT-2026-000212-EMP-0012,INT-2026-000212,EMP-0012,5,5,2,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-09-29T16:30:00
+FB-INT-2026-000213-EMP-0013,INT-2026-000213,EMP-0013,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-09-30T16:30:00
+FB-INT-2026-000214-EMP-0014,INT-2026-000214,EMP-0014,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-10-01T16:30:00
+FB-INT-2026-000215-EMP-0015,INT-2026-000215,EMP-0015,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-10-02T16:30:00
+FB-INT-2026-000216-EMP-0016,INT-2026-000216,EMP-0016,4,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-10-03T16:30:00
+FB-INT-2026-000217-EMP-0017,INT-2026-000217,EMP-0017,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-10-04T16:30:00
+FB-INT-2026-000218-EMP-0018,INT-2026-000218,EMP-0018,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-10-05T16:30:00
+FB-INT-2026-000219-EMP-0019,INT-2026-000219,EMP-0019,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-10-06T16:30:00
+FB-INT-2026-000220-EMP-0020,INT-2026-000220,EMP-0020,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-10-07T16:30:00
+FB-INT-2026-000221-EMP-0021,INT-2026-000221,EMP-0021,5,3,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-10-08T16:30:00
+FB-INT-2026-000222-EMP-0022,INT-2026-000222,EMP-0022,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-10-09T16:30:00
+FB-INT-2026-000223-EMP-0023,INT-2026-000223,EMP-0023,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-10-10T16:30:00
+FB-INT-2026-000224-EMP-0024,INT-2026-000224,EMP-0024,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-10-11T16:30:00
+FB-INT-2026-000225-EMP-0025,INT-2026-000225,EMP-0025,4,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-10-12T16:30:00
+FB-INT-2026-000226-EMP-0026,INT-2026-000226,EMP-0026,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-10-13T16:30:00
+FB-INT-2026-000227-EMP-0027,INT-2026-000227,EMP-0027,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-10-14T16:30:00
+FB-INT-2026-000228-EMP-0028,INT-2026-000228,EMP-0028,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-10-15T16:30:00
+FB-INT-2026-000229-EMP-0029,INT-2026-000229,EMP-0029,3,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-10-16T16:30:00
+FB-INT-2026-000230-EMP-0030,INT-2026-000230,EMP-0030,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-10-17T16:30:00
+FB-INT-2026-000231-EMP-0031,INT-2026-000231,EMP-0031,2,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-10-18T16:30:00
+FB-INT-2026-000232-EMP-0032,INT-2026-000232,EMP-0032,3,5,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-10-19T16:30:00
+FB-INT-2026-000233-EMP-0033,INT-2026-000233,EMP-0033,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-10-20T16:30:00
+FB-INT-2026-000234-EMP-0034,INT-2026-000234,EMP-0034,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-10-21T16:30:00
+FB-INT-2026-000235-EMP-0035,INT-2026-000235,EMP-0035,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-10-22T16:30:00
+FB-INT-2026-000236-EMP-0036,INT-2026-000236,EMP-0036,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-10-23T16:30:00
+FB-INT-2026-000237-EMP-0037,INT-2026-000237,EMP-0037,2,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-10-24T16:30:00
+FB-INT-2026-000238-EMP-0038,INT-2026-000238,EMP-0038,5,4,2,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-10-25T16:30:00
+FB-INT-2026-000239-EMP-0039,INT-2026-000239,EMP-0039,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-10-26T16:30:00
+FB-INT-2026-000240-EMP-0040,INT-2026-000240,EMP-0040,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-10-27T16:30:00
+FB-INT-2026-000241-EMP-0041,INT-2026-000241,EMP-0041,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-10-28T16:30:00
+FB-INT-2026-000242-EMP-0042,INT-2026-000242,EMP-0042,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-10-29T16:30:00
+FB-INT-2026-000243-EMP-0043,INT-2026-000243,EMP-0043,4,3,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-10-30T16:30:00
+FB-INT-2026-000244-EMP-0044,INT-2026-000244,EMP-0044,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-10-31T16:30:00
+FB-INT-2026-000245-EMP-0045,INT-2026-000245,EMP-0045,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-11-01T16:30:00
+FB-INT-2026-000246-EMP-0046,INT-2026-000246,EMP-0046,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-02T16:30:00
+FB-INT-2026-000247-EMP-0047,INT-2026-000247,EMP-0047,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-11-03T16:30:00
+FB-INT-2026-000248-EMP-0048,INT-2026-000248,EMP-0048,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-11-04T16:30:00
+FB-INT-2026-000249-EMP-0049,INT-2026-000249,EMP-0049,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-11-05T16:30:00
+FB-INT-2026-000250-EMP-0050,INT-2026-000250,EMP-0050,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-11-06T16:30:00
+FB-INT-2026-000251-EMP-0001,INT-2026-000251,EMP-0001,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-11-07T16:30:00
+FB-INT-2026-000252-EMP-0002,INT-2026-000252,EMP-0002,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-11-08T16:30:00
+FB-INT-2026-000253-EMP-0003,INT-2026-000253,EMP-0003,2,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-11-09T16:30:00
+FB-INT-2026-000254-EMP-0004,INT-2026-000254,EMP-0004,5,5,2,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-11-10T16:30:00
+FB-INT-2026-000255-EMP-0005,INT-2026-000255,EMP-0005,3,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-11-11T16:30:00
+FB-INT-2026-000256-EMP-0006,INT-2026-000256,EMP-0006,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-11-12T16:30:00
+FB-INT-2026-000257-EMP-0007,INT-2026-000257,EMP-0007,2,5,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-11-13T16:30:00
+FB-INT-2026-000258-EMP-0008,INT-2026-000258,EMP-0008,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-14T16:30:00
+FB-INT-2026-000259-EMP-0009,INT-2026-000259,EMP-0009,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-11-15T16:30:00
+FB-INT-2026-000260-EMP-0010,INT-2026-000260,EMP-0010,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-11-16T16:30:00
+FB-INT-2026-000261-EMP-0011,INT-2026-000261,EMP-0011,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2026-11-17T16:30:00
+FB-INT-2026-000262-EMP-0012,INT-2026-000262,EMP-0012,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-18T16:30:00
+FB-INT-2026-000263-EMP-0013,INT-2026-000263,EMP-0013,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-11-19T16:30:00
+FB-INT-2026-000264-EMP-0014,INT-2026-000264,EMP-0014,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-11-20T16:30:00
+FB-INT-2026-000265-EMP-0015,INT-2026-000265,EMP-0015,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-11-21T16:30:00
+FB-INT-2026-000266-EMP-0016,INT-2026-000266,EMP-0016,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-22T16:30:00
+FB-INT-2026-000267-EMP-0017,INT-2026-000267,EMP-0017,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-11-23T16:30:00
+FB-INT-2026-000268-EMP-0018,INT-2026-000268,EMP-0018,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2026-11-24T16:30:00
+FB-INT-2026-000269-EMP-0019,INT-2026-000269,EMP-0019,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-11-25T16:30:00
+FB-INT-2026-000270-EMP-0020,INT-2026-000270,EMP-0020,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-26T16:30:00
+FB-INT-2026-000271-EMP-0021,INT-2026-000271,EMP-0021,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2026-11-27T16:30:00
+FB-INT-2026-000272-EMP-0022,INT-2026-000272,EMP-0022,5,5,2,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-11-28T16:30:00
+FB-INT-2026-000273-EMP-0023,INT-2026-000273,EMP-0023,3,3,4,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-11-29T16:30:00
+FB-INT-2026-000274-EMP-0024,INT-2026-000274,EMP-0024,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-11-30T16:30:00
+FB-INT-2026-000275-EMP-0025,INT-2026-000275,EMP-0025,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-12-01T16:30:00
+FB-INT-2026-000276-EMP-0026,INT-2026-000276,EMP-0026,2,3,2,STRONG_NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-12-02T16:30:00
+FB-INT-2026-000277-EMP-0027,INT-2026-000277,EMP-0027,4,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-12-03T16:30:00
+FB-INT-2026-000278-EMP-0028,INT-2026-000278,EMP-0028,4,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-12-04T16:30:00
+FB-INT-2026-000279-EMP-0029,INT-2026-000279,EMP-0029,3,5,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-12-05T16:30:00
+FB-INT-2026-000280-EMP-0030,INT-2026-000280,EMP-0030,2,3,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-12-06T16:30:00
+FB-INT-2026-000281-EMP-0031,INT-2026-000281,EMP-0031,2,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2026-12-07T16:30:00
+FB-INT-2026-000282-EMP-0032,INT-2026-000282,EMP-0032,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2026-12-08T16:30:00
+FB-INT-2026-000283-EMP-0033,INT-2026-000283,EMP-0033,5,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-12-09T16:30:00
+FB-INT-2026-000284-EMP-0034,INT-2026-000284,EMP-0034,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-12-10T16:30:00
+FB-INT-2026-000285-EMP-0035,INT-2026-000285,EMP-0035,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-12-11T16:30:00
+FB-INT-2026-000286-EMP-0036,INT-2026-000286,EMP-0036,4,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-12-12T16:30:00
+FB-INT-2026-000287-EMP-0037,INT-2026-000287,EMP-0037,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-12-13T16:30:00
+FB-INT-2026-000288-EMP-0038,INT-2026-000288,EMP-0038,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2026-12-14T16:30:00
+FB-INT-2026-000289-EMP-0039,INT-2026-000289,EMP-0039,3,5,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-12-15T16:30:00
+FB-INT-2026-000290-EMP-0040,INT-2026-000290,EMP-0040,3,3,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2026-12-16T16:30:00
+FB-INT-2026-000291-EMP-0041,INT-2026-000291,EMP-0041,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-12-17T16:30:00
+FB-INT-2026-000292-EMP-0042,INT-2026-000292,EMP-0042,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-12-18T16:30:00
+FB-INT-2026-000293-EMP-0043,INT-2026-000293,EMP-0043,3,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-12-19T16:30:00
+FB-INT-2026-000294-EMP-0044,INT-2026-000294,EMP-0044,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2026-12-20T16:30:00
+FB-INT-2026-000295-EMP-0045,INT-2026-000295,EMP-0045,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2026-12-21T16:30:00
+FB-INT-2026-000296-EMP-0046,INT-2026-000296,EMP-0046,5,4,2,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-12-22T16:30:00
+FB-INT-2026-000297-EMP-0047,INT-2026-000297,EMP-0047,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-12-23T16:30:00
+FB-INT-2026-000298-EMP-0048,INT-2026-000298,EMP-0048,2,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-12-24T16:30:00
+FB-INT-2026-000299-EMP-0049,INT-2026-000299,EMP-0049,2,3,2,STRONG_NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2026-12-25T16:30:00
+FB-INT-2026-000300-EMP-0050,INT-2026-000300,EMP-0050,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2026-12-26T16:30:00
+FB-INT-2026-000301-EMP-0001,INT-2026-000301,EMP-0001,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2026-12-27T16:30:00
+FB-INT-2026-000302-EMP-0002,INT-2026-000302,EMP-0002,2,4,4,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2026-12-28T16:30:00
+FB-INT-2026-000303-EMP-0003,INT-2026-000303,EMP-0003,5,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2026-12-29T16:30:00
+FB-INT-2026-000304-EMP-0004,INT-2026-000304,EMP-0004,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2026-12-30T16:30:00
+FB-INT-2026-000305-EMP-0005,INT-2026-000305,EMP-0005,3,3,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2026-12-31T16:30:00
+FB-INT-2026-000306-EMP-0006,INT-2026-000306,EMP-0006,2,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2027-01-01T16:30:00
+FB-INT-2026-000307-EMP-0007,INT-2026-000307,EMP-0007,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-02T16:30:00
+FB-INT-2026-000308-EMP-0008,INT-2026-000308,EMP-0008,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-01-03T16:30:00
+FB-INT-2026-000309-EMP-0009,INT-2026-000309,EMP-0009,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-01-04T16:30:00
+FB-INT-2026-000310-EMP-0010,INT-2026-000310,EMP-0010,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-05T16:30:00
+FB-INT-2026-000311-EMP-0011,INT-2026-000311,EMP-0011,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-06T16:30:00
+FB-INT-2026-000312-EMP-0012,INT-2026-000312,EMP-0012,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-01-07T16:30:00
+FB-INT-2026-000313-EMP-0013,INT-2026-000313,EMP-0013,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-01-08T16:30:00
+FB-INT-2026-000314-EMP-0014,INT-2026-000314,EMP-0014,4,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-09T16:30:00
+FB-INT-2026-000315-EMP-0015,INT-2026-000315,EMP-0015,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-01-10T16:30:00
+FB-INT-2026-000316-EMP-0016,INT-2026-000316,EMP-0016,4,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-01-11T16:30:00
+FB-INT-2026-000317-EMP-0017,INT-2026-000317,EMP-0017,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-01-12T16:30:00
+FB-INT-2026-000318-EMP-0018,INT-2026-000318,EMP-0018,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-01-13T16:30:00
+FB-INT-2026-000319-EMP-0019,INT-2026-000319,EMP-0019,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-14T16:30:00
+FB-INT-2026-000320-EMP-0020,INT-2026-000320,EMP-0020,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-01-15T16:30:00
+FB-INT-2026-000321-EMP-0021,INT-2026-000321,EMP-0021,4,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-01-16T16:30:00
+FB-INT-2026-000322-EMP-0022,INT-2026-000322,EMP-0022,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-17T16:30:00
+FB-INT-2026-000323-EMP-0023,INT-2026-000323,EMP-0023,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-18T16:30:00
+FB-INT-2026-000324-EMP-0024,INT-2026-000324,EMP-0024,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-01-19T16:30:00
+FB-INT-2026-000325-EMP-0025,INT-2026-000325,EMP-0025,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-01-20T16:30:00
+FB-INT-2026-000326-EMP-0026,INT-2026-000326,EMP-0026,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-21T16:30:00
+FB-INT-2026-000327-EMP-0027,INT-2026-000327,EMP-0027,4,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-22T16:30:00
+FB-INT-2026-000328-EMP-0028,INT-2026-000328,EMP-0028,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-01-23T16:30:00
+FB-INT-2026-000329-EMP-0029,INT-2026-000329,EMP-0029,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-01-24T16:30:00
+FB-INT-2026-000330-EMP-0030,INT-2026-000330,EMP-0030,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-25T16:30:00
+FB-INT-2026-000331-EMP-0031,INT-2026-000331,EMP-0031,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-01-26T16:30:00
+FB-INT-2026-000332-EMP-0032,INT-2026-000332,EMP-0032,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-01-27T16:30:00
+FB-INT-2026-000333-EMP-0033,INT-2026-000333,EMP-0033,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-01-28T16:30:00
+FB-INT-2026-000334-EMP-0034,INT-2026-000334,EMP-0034,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-01-29T16:30:00
+FB-INT-2026-000335-EMP-0035,INT-2026-000335,EMP-0035,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-01-30T16:30:00
+FB-INT-2026-000336-EMP-0036,INT-2026-000336,EMP-0036,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-01-31T16:30:00
+FB-INT-2026-000337-EMP-0037,INT-2026-000337,EMP-0037,3,5,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-02-01T16:30:00
+FB-INT-2026-000338-EMP-0038,INT-2026-000338,EMP-0038,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-02-02T16:30:00
+FB-INT-2026-000339-EMP-0039,INT-2026-000339,EMP-0039,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-02-03T16:30:00
+FB-INT-2026-000340-EMP-0040,INT-2026-000340,EMP-0040,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-02-04T16:30:00
+FB-INT-2026-000341-EMP-0041,INT-2026-000341,EMP-0041,3,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-02-05T16:30:00
+FB-INT-2026-000342-EMP-0042,INT-2026-000342,EMP-0042,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-02-06T16:30:00
+FB-INT-2026-000343-EMP-0043,INT-2026-000343,EMP-0043,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-02-07T16:30:00
+FB-INT-2026-000344-EMP-0044,INT-2026-000344,EMP-0044,4,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-02-08T16:30:00
+FB-INT-2026-000345-EMP-0045,INT-2026-000345,EMP-0045,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2027-02-09T16:30:00
+FB-INT-2026-000346-EMP-0046,INT-2026-000346,EMP-0046,4,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-02-10T16:30:00
+FB-INT-2026-000347-EMP-0047,INT-2026-000347,EMP-0047,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-02-11T16:30:00
+FB-INT-2026-000348-EMP-0048,INT-2026-000348,EMP-0048,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-02-12T16:30:00
+FB-INT-2026-000349-EMP-0049,INT-2026-000349,EMP-0049,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-02-13T16:30:00
+FB-INT-2026-000350-EMP-0050,INT-2026-000350,EMP-0050,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-02-14T16:30:00
+FB-INT-2026-000351-EMP-0001,INT-2026-000351,EMP-0001,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-02-15T16:30:00
+FB-INT-2026-000352-EMP-0002,INT-2026-000352,EMP-0002,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-02-16T16:30:00
+FB-INT-2026-000353-EMP-0003,INT-2026-000353,EMP-0003,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-02-17T16:30:00
+FB-INT-2026-000354-EMP-0004,INT-2026-000354,EMP-0004,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-02-18T16:30:00
+FB-INT-2026-000355-EMP-0005,INT-2026-000355,EMP-0005,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-02-19T16:30:00
+FB-INT-2026-000356-EMP-0006,INT-2026-000356,EMP-0006,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-02-20T16:30:00
+FB-INT-2026-000357-EMP-0007,INT-2026-000357,EMP-0007,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-02-21T16:30:00
+FB-INT-2026-000358-EMP-0008,INT-2026-000358,EMP-0008,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-02-22T16:30:00
+FB-INT-2026-000359-EMP-0009,INT-2026-000359,EMP-0009,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-02-23T16:30:00
+FB-INT-2026-000360-EMP-0010,INT-2026-000360,EMP-0010,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-02-24T16:30:00
+FB-INT-2026-000361-EMP-0011,INT-2026-000361,EMP-0011,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-02-25T16:30:00
+FB-INT-2026-000362-EMP-0012,INT-2026-000362,EMP-0012,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-02-26T16:30:00
+FB-INT-2026-000363-EMP-0013,INT-2026-000363,EMP-0013,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-02-27T16:30:00
+FB-INT-2026-000364-EMP-0014,INT-2026-000364,EMP-0014,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-02-28T16:30:00
+FB-INT-2026-000365-EMP-0015,INT-2026-000365,EMP-0015,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-03-01T16:30:00
+FB-INT-2026-000366-EMP-0016,INT-2026-000366,EMP-0016,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-03-02T16:30:00
+FB-INT-2026-000367-EMP-0017,INT-2026-000367,EMP-0017,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-03T16:30:00
+FB-INT-2026-000368-EMP-0018,INT-2026-000368,EMP-0018,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-03-04T16:30:00
+FB-INT-2026-000369-EMP-0019,INT-2026-000369,EMP-0019,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-03-05T16:30:00
+FB-INT-2026-000370-EMP-0020,INT-2026-000370,EMP-0020,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-03-06T16:30:00
+FB-INT-2026-000371-EMP-0021,INT-2026-000371,EMP-0021,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-07T16:30:00
+FB-INT-2026-000372-EMP-0022,INT-2026-000372,EMP-0022,3,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-03-08T16:30:00
+FB-INT-2026-000373-EMP-0023,INT-2026-000373,EMP-0023,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2027-03-09T16:30:00
+FB-INT-2026-000374-EMP-0024,INT-2026-000374,EMP-0024,4,3,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-03-10T16:30:00
+FB-INT-2026-000375-EMP-0025,INT-2026-000375,EMP-0025,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-11T16:30:00
+FB-INT-2026-000376-EMP-0026,INT-2026-000376,EMP-0026,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-03-12T16:30:00
+FB-INT-2026-000377-EMP-0027,INT-2026-000377,EMP-0027,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-03-13T16:30:00
+FB-INT-2026-000378-EMP-0028,INT-2026-000378,EMP-0028,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-03-14T16:30:00
+FB-INT-2026-000379-EMP-0029,INT-2026-000379,EMP-0029,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2027-03-15T16:30:00
+FB-INT-2026-000380-EMP-0030,INT-2026-000380,EMP-0030,5,3,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-03-16T16:30:00
+FB-INT-2026-000381-EMP-0031,INT-2026-000381,EMP-0031,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-03-17T16:30:00
+FB-INT-2026-000382-EMP-0032,INT-2026-000382,EMP-0032,3,3,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-03-18T16:30:00
+FB-INT-2026-000383-EMP-0033,INT-2026-000383,EMP-0033,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-19T16:30:00
+FB-INT-2026-000384-EMP-0034,INT-2026-000384,EMP-0034,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-03-20T16:30:00
+FB-INT-2026-000385-EMP-0035,INT-2026-000385,EMP-0035,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-03-21T16:30:00
+FB-INT-2026-000386-EMP-0036,INT-2026-000386,EMP-0036,2,4,4,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2027-03-22T16:30:00
+FB-INT-2026-000387-EMP-0037,INT-2026-000387,EMP-0037,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-23T16:30:00
+FB-INT-2026-000388-EMP-0038,INT-2026-000388,EMP-0038,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-03-24T16:30:00
+FB-INT-2026-000389-EMP-0039,INT-2026-000389,EMP-0039,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-03-25T16:30:00
+FB-INT-2026-000390-EMP-0040,INT-2026-000390,EMP-0040,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-03-26T16:30:00
+FB-INT-2026-000391-EMP-0041,INT-2026-000391,EMP-0041,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-03-27T16:30:00
+FB-INT-2026-000392-EMP-0042,INT-2026-000392,EMP-0042,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-03-28T16:30:00
+FB-INT-2026-000393-EMP-0043,INT-2026-000393,EMP-0043,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-03-29T16:30:00
+FB-INT-2026-000394-EMP-0044,INT-2026-000394,EMP-0044,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-03-30T16:30:00
+FB-INT-2026-000395-EMP-0045,INT-2026-000395,EMP-0045,5,3,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-03-31T16:30:00
+FB-INT-2026-000396-EMP-0046,INT-2026-000396,EMP-0046,2,3,5,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-04-01T16:30:00
+FB-INT-2026-000397-EMP-0047,INT-2026-000397,EMP-0047,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-02T16:30:00
+FB-INT-2026-000398-EMP-0048,INT-2026-000398,EMP-0048,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-04-03T16:30:00
+FB-INT-2026-000399-EMP-0049,INT-2026-000399,EMP-0049,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-04-04T16:30:00
+FB-INT-2026-000400-EMP-0050,INT-2026-000400,EMP-0050,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-04-05T16:30:00
+FB-INT-2026-000401-EMP-0001,INT-2026-000401,EMP-0001,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-06T16:30:00
+FB-INT-2026-000402-EMP-0002,INT-2026-000402,EMP-0002,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-04-07T16:30:00
+FB-INT-2026-000403-EMP-0003,INT-2026-000403,EMP-0003,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-04-08T16:30:00
+FB-INT-2026-000404-EMP-0004,INT-2026-000404,EMP-0004,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-04-09T16:30:00
+FB-INT-2026-000405-EMP-0005,INT-2026-000405,EMP-0005,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-10T16:30:00
+FB-INT-2026-000406-EMP-0006,INT-2026-000406,EMP-0006,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-04-11T16:30:00
+FB-INT-2026-000407-EMP-0007,INT-2026-000407,EMP-0007,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-04-12T16:30:00
+FB-INT-2026-000408-EMP-0008,INT-2026-000408,EMP-0008,3,5,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-04-13T16:30:00
+FB-INT-2026-000409-EMP-0009,INT-2026-000409,EMP-0009,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-14T16:30:00
+FB-INT-2026-000410-EMP-0010,INT-2026-000410,EMP-0010,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-04-15T16:30:00
+FB-INT-2026-000411-EMP-0011,INT-2026-000411,EMP-0011,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-04-16T16:30:00
+FB-INT-2026-000412-EMP-0012,INT-2026-000412,EMP-0012,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-04-17T16:30:00
+FB-INT-2026-000413-EMP-0013,INT-2026-000413,EMP-0013,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-04-18T16:30:00
+FB-INT-2026-000414-EMP-0014,INT-2026-000414,EMP-0014,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-04-19T16:30:00
+FB-INT-2026-000415-EMP-0015,INT-2026-000415,EMP-0015,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-04-20T16:30:00
+FB-INT-2026-000416-EMP-0016,INT-2026-000416,EMP-0016,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-04-21T16:30:00
+FB-INT-2026-000417-EMP-0017,INT-2026-000417,EMP-0017,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-04-22T16:30:00
+FB-INT-2026-000418-EMP-0018,INT-2026-000418,EMP-0018,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-04-23T16:30:00
+FB-INT-2026-000419-EMP-0019,INT-2026-000419,EMP-0019,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-04-24T16:30:00
+FB-INT-2026-000420-EMP-0020,INT-2026-000420,EMP-0020,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-04-25T16:30:00
+FB-INT-2026-000421-EMP-0021,INT-2026-000421,EMP-0021,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-26T16:30:00
+FB-INT-2026-000422-EMP-0022,INT-2026-000422,EMP-0022,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-04-27T16:30:00
+FB-INT-2026-000423-EMP-0023,INT-2026-000423,EMP-0023,3,3,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-04-28T16:30:00
+FB-INT-2026-000424-EMP-0024,INT-2026-000424,EMP-0024,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-04-29T16:30:00
+FB-INT-2026-000425-EMP-0025,INT-2026-000425,EMP-0025,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-04-30T16:30:00
+FB-INT-2026-000426-EMP-0026,INT-2026-000426,EMP-0026,4,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-05-01T16:30:00
+FB-INT-2026-000427-EMP-0027,INT-2026-000427,EMP-0027,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-05-02T16:30:00
+FB-INT-2026-000428-EMP-0028,INT-2026-000428,EMP-0028,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-05-03T16:30:00
+FB-INT-2026-000429-EMP-0029,INT-2026-000429,EMP-0029,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-05-04T16:30:00
+FB-INT-2026-000430-EMP-0030,INT-2026-000430,EMP-0030,3,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-05-05T16:30:00
+FB-INT-2026-000431-EMP-0031,INT-2026-000431,EMP-0031,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-05-06T16:30:00
+FB-INT-2026-000432-EMP-0032,INT-2026-000432,EMP-0032,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-05-07T16:30:00
+FB-INT-2026-000433-EMP-0033,INT-2026-000433,EMP-0033,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-05-08T16:30:00
+FB-INT-2026-000434-EMP-0034,INT-2026-000434,EMP-0034,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-05-09T16:30:00
+FB-INT-2026-000435-EMP-0035,INT-2026-000435,EMP-0035,2,4,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2027-05-10T16:30:00
+FB-INT-2026-000436-EMP-0036,INT-2026-000436,EMP-0036,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-05-11T16:30:00
+FB-INT-2026-000437-EMP-0037,INT-2026-000437,EMP-0037,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-05-12T16:30:00
+FB-INT-2026-000438-EMP-0038,INT-2026-000438,EMP-0038,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-05-13T16:30:00
+FB-INT-2026-000439-EMP-0039,INT-2026-000439,EMP-0039,3,4,3,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-05-14T16:30:00
+FB-INT-2026-000440-EMP-0040,INT-2026-000440,EMP-0040,5,4,2,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-05-15T16:30:00
+FB-INT-2026-000441-EMP-0041,INT-2026-000441,EMP-0041,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-05-16T16:30:00
+FB-INT-2026-000442-EMP-0042,INT-2026-000442,EMP-0042,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-05-17T16:30:00
+FB-INT-2026-000443-EMP-0043,INT-2026-000443,EMP-0043,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-05-18T16:30:00
+FB-INT-2026-000444-EMP-0044,INT-2026-000444,EMP-0044,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-05-19T16:30:00
+FB-INT-2026-000445-EMP-0045,INT-2026-000445,EMP-0045,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-05-20T16:30:00
+FB-INT-2026-000446-EMP-0046,INT-2026-000446,EMP-0046,3,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-05-21T16:30:00
+FB-INT-2026-000447-EMP-0047,INT-2026-000447,EMP-0047,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-05-22T16:30:00
+FB-INT-2026-000448-EMP-0048,INT-2026-000448,EMP-0048,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-05-23T16:30:00
+FB-INT-2026-000449-EMP-0049,INT-2026-000449,EMP-0049,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-05-24T16:30:00
+FB-INT-2026-000450-EMP-0050,INT-2026-000450,EMP-0050,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-05-25T16:30:00
+FB-INT-2026-000451-EMP-0001,INT-2026-000451,EMP-0001,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-05-26T16:30:00
+FB-INT-2026-000452-EMP-0002,INT-2026-000452,EMP-0002,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-05-27T16:30:00
+FB-INT-2026-000453-EMP-0003,INT-2026-000453,EMP-0003,3,4,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-05-28T16:30:00
+FB-INT-2026-000454-EMP-0004,INT-2026-000454,EMP-0004,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-05-29T16:30:00
+FB-INT-2026-000455-EMP-0005,INT-2026-000455,EMP-0005,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-05-30T16:30:00
+FB-INT-2026-000456-EMP-0006,INT-2026-000456,EMP-0006,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-05-31T16:30:00
+FB-INT-2026-000457-EMP-0007,INT-2026-000457,EMP-0007,5,4,2,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-06-01T16:30:00
+FB-INT-2026-000458-EMP-0008,INT-2026-000458,EMP-0008,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-06-02T16:30:00
+FB-INT-2026-000459-EMP-0009,INT-2026-000459,EMP-0009,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-06-03T16:30:00
+FB-INT-2026-000460-EMP-0010,INT-2026-000460,EMP-0010,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-06-04T16:30:00
+FB-INT-2026-000461-EMP-0011,INT-2026-000461,EMP-0011,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-06-05T16:30:00
+FB-INT-2026-000462-EMP-0012,INT-2026-000462,EMP-0012,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-06-06T16:30:00
+FB-INT-2026-000463-EMP-0013,INT-2026-000463,EMP-0013,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-06-07T16:30:00
+FB-INT-2026-000464-EMP-0014,INT-2026-000464,EMP-0014,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-06-08T16:30:00
+FB-INT-2026-000465-EMP-0015,INT-2026-000465,EMP-0015,4,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-06-09T16:30:00
+FB-INT-2026-000466-EMP-0016,INT-2026-000466,EMP-0016,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-06-10T16:30:00
+FB-INT-2026-000467-EMP-0017,INT-2026-000467,EMP-0017,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-06-11T16:30:00
+FB-INT-2026-000468-EMP-0018,INT-2026-000468,EMP-0018,5,4,5,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-06-12T16:30:00
+FB-INT-2026-000469-EMP-0019,INT-2026-000469,EMP-0019,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-06-13T16:30:00
+FB-INT-2026-000470-EMP-0020,INT-2026-000470,EMP-0020,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-06-14T16:30:00
+FB-INT-2026-000471-EMP-0021,INT-2026-000471,EMP-0021,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-06-15T16:30:00
+FB-INT-2026-000472-EMP-0022,INT-2026-000472,EMP-0022,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-06-16T16:30:00
+FB-INT-2026-000473-EMP-0023,INT-2026-000473,EMP-0023,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-06-17T16:30:00
+FB-INT-2026-000474-EMP-0024,INT-2026-000474,EMP-0024,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-06-18T16:30:00
+FB-INT-2026-000475-EMP-0025,INT-2026-000475,EMP-0025,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-06-19T16:30:00
+FB-INT-2026-000476-EMP-0026,INT-2026-000476,EMP-0026,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-06-20T16:30:00
+FB-INT-2026-000477-EMP-0027,INT-2026-000477,EMP-0027,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-06-21T16:30:00
+FB-INT-2026-000478-EMP-0028,INT-2026-000478,EMP-0028,5,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-06-22T16:30:00
+FB-INT-2026-000479-EMP-0029,INT-2026-000479,EMP-0029,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-06-23T16:30:00
+FB-INT-2026-000480-EMP-0030,INT-2026-000480,EMP-0030,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-06-24T16:30:00
+FB-INT-2026-000481-EMP-0031,INT-2026-000481,EMP-0031,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2027-06-25T16:30:00
+FB-INT-2026-000482-EMP-0032,INT-2026-000482,EMP-0032,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-06-26T16:30:00
+FB-INT-2026-000483-EMP-0033,INT-2026-000483,EMP-0033,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-06-27T16:30:00
+FB-INT-2026-000484-EMP-0034,INT-2026-000484,EMP-0034,2,4,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-06-28T16:30:00
+FB-INT-2026-000485-EMP-0035,INT-2026-000485,EMP-0035,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-06-29T16:30:00
+FB-INT-2026-000486-EMP-0036,INT-2026-000486,EMP-0036,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-06-30T16:30:00
+FB-INT-2026-000487-EMP-0037,INT-2026-000487,EMP-0037,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-07-01T16:30:00
+FB-INT-2026-000488-EMP-0038,INT-2026-000488,EMP-0038,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-07-02T16:30:00
+FB-INT-2026-000489-EMP-0039,INT-2026-000489,EMP-0039,4,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-03T16:30:00
+FB-INT-2026-000490-EMP-0040,INT-2026-000490,EMP-0040,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-07-04T16:30:00
+FB-INT-2026-000491-EMP-0041,INT-2026-000491,EMP-0041,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-07-05T16:30:00
+FB-INT-2026-000492-EMP-0042,INT-2026-000492,EMP-0042,3,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-07-06T16:30:00
+FB-INT-2026-000493-EMP-0043,INT-2026-000493,EMP-0043,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-07T16:30:00
+FB-INT-2026-000494-EMP-0044,INT-2026-000494,EMP-0044,5,3,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-07-08T16:30:00
+FB-INT-2026-000495-EMP-0045,INT-2026-000495,EMP-0045,5,5,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-07-09T16:30:00
+FB-INT-2026-000496-EMP-0046,INT-2026-000496,EMP-0046,2,5,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-07-10T16:30:00
+FB-INT-2026-000497-EMP-0047,INT-2026-000497,EMP-0047,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-11T16:30:00
+FB-INT-2026-000498-EMP-0048,INT-2026-000498,EMP-0048,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-07-12T16:30:00
+FB-INT-2026-000499-EMP-0049,INT-2026-000499,EMP-0049,5,3,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-07-13T16:30:00
+FB-INT-2026-000500-EMP-0050,INT-2026-000500,EMP-0050,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-07-14T16:30:00
+FB-INT-2026-000501-EMP-0001,INT-2026-000501,EMP-0001,5,3,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-07-15T16:30:00
+FB-INT-2026-000502-EMP-0002,INT-2026-000502,EMP-0002,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-07-16T16:30:00
+FB-INT-2026-000503-EMP-0003,INT-2026-000503,EMP-0003,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-07-17T16:30:00
+FB-INT-2026-000504-EMP-0004,INT-2026-000504,EMP-0004,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-07-18T16:30:00
+FB-INT-2026-000505-EMP-0005,INT-2026-000505,EMP-0005,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-19T16:30:00
+FB-INT-2026-000506-EMP-0006,INT-2026-000506,EMP-0006,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-07-20T16:30:00
+FB-INT-2026-000507-EMP-0007,INT-2026-000507,EMP-0007,4,5,2,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-07-21T16:30:00
+FB-INT-2026-000508-EMP-0008,INT-2026-000508,EMP-0008,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-07-22T16:30:00
+FB-INT-2026-000509-EMP-0009,INT-2026-000509,EMP-0009,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-23T16:30:00
+FB-INT-2026-000510-EMP-0010,INT-2026-000510,EMP-0010,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-07-24T16:30:00
+FB-INT-2026-000511-EMP-0011,INT-2026-000511,EMP-0011,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-07-25T16:30:00
+FB-INT-2026-000512-EMP-0012,INT-2026-000512,EMP-0012,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-07-26T16:30:00
+FB-INT-2026-000513-EMP-0013,INT-2026-000513,EMP-0013,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-07-27T16:30:00
+FB-INT-2026-000514-EMP-0014,INT-2026-000514,EMP-0014,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-07-28T16:30:00
+FB-INT-2026-000515-EMP-0015,INT-2026-000515,EMP-0015,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-07-29T16:30:00
+FB-INT-2026-000516-EMP-0016,INT-2026-000516,EMP-0016,3,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-07-30T16:30:00
+FB-INT-2026-000517-EMP-0017,INT-2026-000517,EMP-0017,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-07-31T16:30:00
+FB-INT-2026-000518-EMP-0018,INT-2026-000518,EMP-0018,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-08-01T16:30:00
+FB-INT-2026-000519-EMP-0019,INT-2026-000519,EMP-0019,2,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2027-08-02T16:30:00
+FB-INT-2026-000520-EMP-0020,INT-2026-000520,EMP-0020,4,3,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-08-03T16:30:00
+FB-INT-2026-000521-EMP-0021,INT-2026-000521,EMP-0021,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-08-04T16:30:00
+FB-INT-2026-000522-EMP-0022,INT-2026-000522,EMP-0022,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-08-05T16:30:00
+FB-INT-2026-000523-EMP-0023,INT-2026-000523,EMP-0023,2,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2027-08-06T16:30:00
+FB-INT-2026-000524-EMP-0024,INT-2026-000524,EMP-0024,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-08-07T16:30:00
+FB-INT-2026-000525-EMP-0025,INT-2026-000525,EMP-0025,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-08-08T16:30:00
+FB-INT-2026-000526-EMP-0026,INT-2026-000526,EMP-0026,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-08-09T16:30:00
+FB-INT-2026-000527-EMP-0027,INT-2026-000527,EMP-0027,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-08-10T16:30:00
+FB-INT-2026-000528-EMP-0028,INT-2026-000528,EMP-0028,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-08-11T16:30:00
+FB-INT-2026-000529-EMP-0029,INT-2026-000529,EMP-0029,2,5,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2027-08-12T16:30:00
+FB-INT-2026-000530-EMP-0030,INT-2026-000530,EMP-0030,2,4,3,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2027-08-13T16:30:00
+FB-INT-2026-000531-EMP-0031,INT-2026-000531,EMP-0031,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-08-14T16:30:00
+FB-INT-2026-000532-EMP-0032,INT-2026-000532,EMP-0032,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-08-15T16:30:00
+FB-INT-2026-000533-EMP-0033,INT-2026-000533,EMP-0033,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-08-16T16:30:00
+FB-INT-2026-000534-EMP-0034,INT-2026-000534,EMP-0034,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-08-17T16:30:00
+FB-INT-2026-000535-EMP-0035,INT-2026-000535,EMP-0035,3,3,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-08-18T16:30:00
+FB-INT-2026-000536-EMP-0036,INT-2026-000536,EMP-0036,3,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-08-19T16:30:00
+FB-INT-2026-000537-EMP-0037,INT-2026-000537,EMP-0037,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-08-20T16:30:00
+FB-INT-2026-000538-EMP-0038,INT-2026-000538,EMP-0038,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-08-21T16:30:00
+FB-INT-2026-000539-EMP-0039,INT-2026-000539,EMP-0039,3,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-08-22T16:30:00
+FB-INT-2026-000540-EMP-0040,INT-2026-000540,EMP-0040,2,4,4,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-08-23T16:30:00
+FB-INT-2026-000541-EMP-0041,INT-2026-000541,EMP-0041,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-08-24T16:30:00
+FB-INT-2026-000542-EMP-0042,INT-2026-000542,EMP-0042,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-08-25T16:30:00
+FB-INT-2026-000543-EMP-0043,INT-2026-000543,EMP-0043,5,3,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-08-26T16:30:00
+FB-INT-2026-000544-EMP-0044,INT-2026-000544,EMP-0044,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-08-27T16:30:00
+FB-INT-2026-000545-EMP-0045,INT-2026-000545,EMP-0045,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-08-28T16:30:00
+FB-INT-2026-000546-EMP-0046,INT-2026-000546,EMP-0046,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-08-29T16:30:00
+FB-INT-2026-000547-EMP-0047,INT-2026-000547,EMP-0047,4,4,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-08-30T16:30:00
+FB-INT-2026-000548-EMP-0048,INT-2026-000548,EMP-0048,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-08-31T16:30:00
+FB-INT-2026-000549-EMP-0049,INT-2026-000549,EMP-0049,4,4,2,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-09-01T16:30:00
+FB-INT-2026-000550-EMP-0050,INT-2026-000550,EMP-0050,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-09-02T16:30:00
+FB-INT-2026-000551-EMP-0001,INT-2026-000551,EMP-0001,3,3,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-09-03T16:30:00
+FB-INT-2026-000552-EMP-0002,INT-2026-000552,EMP-0002,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-09-04T16:30:00
+FB-INT-2026-000553-EMP-0003,INT-2026-000553,EMP-0003,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-09-05T16:30:00
+FB-INT-2026-000554-EMP-0004,INT-2026-000554,EMP-0004,3,5,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-09-06T16:30:00
+FB-INT-2026-000555-EMP-0005,INT-2026-000555,EMP-0005,3,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-09-07T16:30:00
+FB-INT-2026-000556-EMP-0006,INT-2026-000556,EMP-0006,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-09-08T16:30:00
+FB-INT-2026-000557-EMP-0007,INT-2026-000557,EMP-0007,4,5,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-09-09T16:30:00
+FB-INT-2026-000558-EMP-0008,INT-2026-000558,EMP-0008,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-09-10T16:30:00
+FB-INT-2026-000559-EMP-0009,INT-2026-000559,EMP-0009,2,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 2/5.,2027-09-11T16:30:00
+FB-INT-2026-000560-EMP-0010,INT-2026-000560,EMP-0010,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 4/5.,2027-09-12T16:30:00
+FB-INT-2026-000561-EMP-0011,INT-2026-000561,EMP-0011,3,4,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-09-13T16:30:00
+FB-INT-2026-000562-EMP-0012,INT-2026-000562,EMP-0012,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-09-14T16:30:00
+FB-INT-2026-000563-EMP-0013,INT-2026-000563,EMP-0013,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-09-15T16:30:00
+FB-INT-2026-000564-EMP-0014,INT-2026-000564,EMP-0014,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-09-16T16:30:00
+FB-INT-2026-000565-EMP-0015,INT-2026-000565,EMP-0015,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-09-17T16:30:00
+FB-INT-2026-000566-EMP-0016,INT-2026-000566,EMP-0016,2,4,2,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2027-09-18T16:30:00
+FB-INT-2026-000567-EMP-0017,INT-2026-000567,EMP-0017,4,3,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-09-19T16:30:00
+FB-INT-2026-000568-EMP-0018,INT-2026-000568,EMP-0018,5,5,3,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-09-20T16:30:00
+FB-INT-2026-000569-EMP-0019,INT-2026-000569,EMP-0019,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-09-21T16:30:00
+FB-INT-2026-000570-EMP-0020,INT-2026-000570,EMP-0020,2,4,4,NO_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 2/5.,2027-09-22T16:30:00
+FB-INT-2026-000571-EMP-0021,INT-2026-000571,EMP-0021,5,3,2,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-09-23T16:30:00
+FB-INT-2026-000572-EMP-0022,INT-2026-000572,EMP-0022,2,4,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-09-24T16:30:00
+FB-INT-2026-000573-EMP-0023,INT-2026-000573,EMP-0023,5,3,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-09-25T16:30:00
+FB-INT-2026-000574-EMP-0024,INT-2026-000574,EMP-0024,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-09-26T16:30:00
+FB-INT-2026-000575-EMP-0025,INT-2026-000575,EMP-0025,3,3,4,NO_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 3/5.,2027-09-27T16:30:00
+FB-INT-2026-000576-EMP-0026,INT-2026-000576,EMP-0026,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-09-28T16:30:00
+FB-INT-2026-000577-EMP-0027,INT-2026-000577,EMP-0027,5,4,3,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-09-29T16:30:00
+FB-INT-2026-000578-EMP-0028,INT-2026-000578,EMP-0028,4,5,4,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-09-30T16:30:00
+FB-INT-2026-000579-EMP-0029,INT-2026-000579,EMP-0029,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-10-01T16:30:00
+FB-INT-2026-000580-EMP-0030,INT-2026-000580,EMP-0030,3,3,5,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-10-02T16:30:00
+FB-INT-2026-000581-EMP-0031,INT-2026-000581,EMP-0031,2,4,4,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 2/5.,2027-10-03T16:30:00
+FB-INT-2026-000582-EMP-0032,INT-2026-000582,EMP-0032,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-10-04T16:30:00
+FB-INT-2026-000583-EMP-0033,INT-2026-000583,EMP-0033,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-10-05T16:30:00
+FB-INT-2026-000584-EMP-0034,INT-2026-000584,EMP-0034,2,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 2/5.,2027-10-06T16:30:00
+FB-INT-2026-000585-EMP-0035,INT-2026-000585,EMP-0035,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 5/5.,2027-10-07T16:30:00
+FB-INT-2026-000586-EMP-0036,INT-2026-000586,EMP-0036,5,3,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 5/5.,2027-10-08T16:30:00
+FB-INT-2026-000587-EMP-0037,INT-2026-000587,EMP-0037,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-10-09T16:30:00
+FB-INT-2026-000588-EMP-0038,INT-2026-000588,EMP-0038,3,4,2,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-10-10T16:30:00
+FB-INT-2026-000589-EMP-0039,INT-2026-000589,EMP-0039,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 4/5.,2027-10-11T16:30:00
+FB-INT-2026-000590-EMP-0040,INT-2026-000590,EMP-0040,4,3,5,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-10-12T16:30:00
+FB-INT-2026-000591-EMP-0041,INT-2026-000591,EMP-0041,5,5,4,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 5/5.,2027-10-13T16:30:00
+FB-INT-2026-000592-EMP-0042,INT-2026-000592,EMP-0042,3,4,3,NO_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-10-14T16:30:00
+FB-INT-2026-000593-EMP-0043,INT-2026-000593,EMP-0043,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-10-15T16:30:00
+FB-INT-2026-000594-EMP-0044,INT-2026-000594,EMP-0044,4,4,4,LEAN_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 4/5.,2027-10-16T16:30:00
+FB-INT-2026-000595-EMP-0045,INT-2026-000595,EMP-0045,4,4,3,LEAN_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-10-17T16:30:00
+FB-INT-2026-000596-EMP-0046,INT-2026-000596,EMP-0046,5,4,4,STRONG_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 5/5.,2027-10-18T16:30:00
+FB-INT-2026-000597-EMP-0047,INT-2026-000597,EMP-0047,3,3,3,NO_HIRE,Demonstrated solid proficiency in technical screen. Technical clarity: 3/5.,2027-10-19T16:30:00
+FB-INT-2026-000598-EMP-0048,INT-2026-000598,EMP-0048,3,5,5,STRONG_HIRE,Demonstrated solid proficiency in system design. Technical clarity: 3/5.,2027-10-20T16:30:00
+FB-INT-2026-000599-EMP-0049,INT-2026-000599,EMP-0049,4,4,5,STRONG_HIRE,Demonstrated solid proficiency in behavioral. Technical clarity: 4/5.,2027-10-21T16:30:00
+FB-INT-2026-000600-EMP-0050,INT-2026-000600,EMP-0050,3,5,4,LEAN_HIRE,Demonstrated solid proficiency in final round. Technical clarity: 3/5.,2027-10-22T16:30:00

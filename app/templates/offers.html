@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Job Offers - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900">Job Offers</h1>
+            <p class="text-sm text-slate-500">Formal employment offers, executive approvals, and candidate decisions.</p>
+        </div>
+        <div class="text-sm text-slate-500">
+            Showing {{ offers|length }} offers
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Offer ID</th>
+                    <th class="px-6 py-3 text-left">Candidate & Requisition</th>
+                    <th class="px-6 py-3 text-left">Offered Salary</th>
+                    <th class="px-6 py-3 text-left">Requisition Approved Band</th>
+                    <th class="px-6 py-3 text-left">Approval State</th>
+                    <th class="px-6 py-3 text-left">Candidate Decision</th>
+                    <th class="px-6 py-3 text-left">Offer / Expiration</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for o in offers %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-mono font-medium text-indigo-600">{{ o.offer_id }}</td>
+                    <td class="px-6 py-4">
+                        <div class="font-bold text-slate-900">{{ o.application.candidate.full_name }}</div>
+                        <div class="text-xs text-slate-400">{{ o.application.requisition.title }}</div>
+                    </td>
+                    <td class="px-6 py-4 font-mono font-bold text-slate-900">
+                        ${{ "{:,.2f}".format(o.offered_salary) }}
+                    </td>
+                    <td class="px-6 py-4 font-mono text-xs text-slate-500">
+                        ${{ "{:,.0f}".format(o.application.requisition.min_salary) }} - ${{ "{:,.0f}".format(o.application.requisition.max_salary) }}
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800">
+                            {{ o.approval_status }}
+                        </span>
+                        <div class="text-[10px] text-slate-400 mt-0.5">{{ o.approved_by }}</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 rounded-full text-xs font-bold
+                            {% if o.candidate_decision == 'ACCEPTED' %}bg-emerald-100 text-emerald-800
+                            {% elif o.candidate_decision == 'DECLINED' %}bg-rose-100 text-rose-800
+                            {% else %}bg-amber-100 text-amber-800{% endif %}">
+                            {{ o.candidate_decision }}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 text-xs font-mono text-slate-500">
+                        {{ o.offer_date }} &bull; exp: {{ o.expiration_date }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

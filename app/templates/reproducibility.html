@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Reproducibility Verification - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900 flex items-center">
+                <i class="fa-solid fa-arrows-rotate text-indigo-600 mr-2"></i> Deterministic Reproducibility Audit
+            </h1>
+            <p class="text-sm text-slate-500">
+                Independent generation runs with seed <code class="font-mono bg-slate-100 px-1 py-0.5 rounded text-indigo-600">20261022</code> compared byte-for-byte.
+            </p>
+        </div>
+        <div>
+            <span class="px-3 py-1 rounded-full text-xs font-bold {% if is_reproducible %}bg-emerald-100 text-emerald-800{% else %}bg-rose-100 text-rose-800{% endif %}">
+                {% if is_reproducible %}100% REPRODUCIBLE (ALL HASHES MATCH){% else %}HASH MISMATCH DETECTED{% endif %}
+            </span>
+        </div>
+    </div>
+
+    <!-- Verification Explanation -->
+    <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-4 text-xs text-indigo-900">
+        <strong>Deterministic Audit Methodology:</strong>
+        Two isolated generation executions are triggered in memory from ground zero using seed <code>20261022</code>.
+        Every table artifact (including candidate skills, screening rules, applications, feedback, and ground truth) is exported and hashed with SHA-256.
+        A 100% match guarantees mathematical determinism across all machines.
+    </div>
+
+    <!-- Comparison Matrix -->
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Export File Artifact</th>
+                    <th class="px-6 py-3 text-left">Run 1 SHA-256 Digest</th>
+                    <th class="px-6 py-3 text-left">Run 2 SHA-256 Digest</th>
+                    <th class="px-6 py-3 text-left">Verification Status</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200 font-mono text-xs">
+                {% for row in comparison %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-semibold text-slate-900">{{ row.file }}</td>
+                    <td class="px-6 py-4 text-slate-500">{{ row.h1 }}</td>
+                    <td class="px-6 py-4 text-slate-500">{{ row.h2 }}</td>
+                    <td class="px-6 py-4">
+                        <span class="px-2 py-0.5 rounded text-xs font-bold {% if row.match %}bg-emerald-100 text-emerald-800{% else %}bg-rose-100 text-rose-800{% endif %}">
+                            {% if row.match %}MATCH{% else %}MISMATCH{% endif %}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

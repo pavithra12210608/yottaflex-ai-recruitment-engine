@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - YottaFlex AI Recruitment Engine{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+    <!-- Header banner -->
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-6 border-b border-slate-200">
+        <div>
+            <h1 class="text-3xl font-bold tracking-tight text-slate-900">Recruitment Operations Dashboard</h1>
+            <p class="text-slate-500 mt-1">Autonomous, deterministic hiring pipeline tracking and compliance engine.</p>
+        </div>
+        <div class="mt-4 sm:mt-0 flex space-x-3">
+            <a href="/ui/validation" class="inline-flex items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-sm text-sm font-medium transition">
+                <i class="fa-solid fa-shield-halved mr-2"></i> Run Validation
+            </a>
+            <a href="/ui/reproducibility" class="inline-flex items-center px-4 py-2 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-lg shadow-sm text-sm font-medium transition">
+                <i class="fa-solid fa-arrows-rotate mr-2"></i> Verify Seed
+            </a>
+        </div>
+    </div>
+
+    <!-- Metric Cards Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Departments</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ stats.total_departments }}</div>
+            <span class="text-xs text-indigo-600 font-medium">Master Data</span>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Requisitions</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ stats.total_requisitions }}</div>
+            <span class="text-xs text-emerald-600 font-medium">Approved Roles</span>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Candidates</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ "{:,}".format(stats.total_candidates) }}</div>
+            <span class="text-xs text-blue-600 font-medium">Synthetic Profiles</span>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Applications</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ "{:,}".format(stats.total_applications) }}</div>
+            <span class="text-xs text-indigo-600 font-medium">Screened Pipeline</span>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Interviews</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ "{:,}".format(stats.total_interviews) }}</div>
+            <span class="text-xs text-purple-600 font-medium">Scheduled & Done</span>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-slate-400">Offers</span>
+            <div class="text-2xl font-black text-slate-900 mt-2">{{ stats.total_offers }}</div>
+            <span class="text-xs text-amber-600 font-medium">Extended Offers</span>
+        </div>
+        <div class="bg-rose-50 p-5 rounded-xl border border-rose-200 shadow-sm">
+            <span class="text-xs uppercase font-bold text-rose-500">Flagged Anomalies</span>
+            <div class="text-2xl font-black text-rose-700 mt-2">{{ stats.total_anomalies_flagged }}</div>
+            <a href="/ui/anomalies" class="text-xs text-rose-600 font-medium hover:underline">Inspect Edge Cases &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Secondary Info Grids -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Pipeline Distribution -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm col-span-2">
+            <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center">
+                <i class="fa-solid fa-bars-progress text-indigo-500 mr-2"></i> Application Funnel by Lifecycle Stage
+            </h2>
+            <div class="space-y-3">
+                {% for status, count in stats.applications_by_status.items() %}
+                <div>
+                    <div class="flex justify-between text-sm font-medium mb-1">
+                        <span class="text-slate-700">{{ status }}</span>
+                        <span class="text-slate-500">{{ "{:,}".format(count) }} ({{ "{:.1f}".format((count / stats.total_applications) * 100) }}%)</span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5 overflow-hidden">
+                        {% if status == 'HIRED' %}
+                        <div class="bg-emerald-500 h-2.5 rounded-full" style="width: {{ (count / stats.total_applications) * 100 }}%"></div>
+                        {% elif status == 'OFFERED' or status == 'INTERVIEWING' %}
+                        <div class="bg-indigo-500 h-2.5 rounded-full" style="width: {{ (count / stats.total_applications) * 100 }}%"></div>
+                        {% elif status == 'REJECTED' %}
+                        <div class="bg-rose-400 h-2.5 rounded-full" style="width: {{ (count / stats.total_applications) * 100 }}%"></div>
+                        {% else %}
+                        <div class="bg-slate-400 h-2.5 rounded-full" style="width: {{ (count / stats.total_applications) * 100 }}%"></div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Screening & Offer Conversion -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-6">
+            <div>
+                <h2 class="text-lg font-bold text-slate-900 mb-2 flex items-center">
+                    <i class="fa-solid fa-filter text-indigo-500 mr-2"></i> Screening Pass Rate
+                </h2>
+                <div class="text-4xl font-black text-indigo-600 mt-2">{{ stats.screening_pass_rate }}%</div>
+                <p class="text-xs text-slate-500 mt-1">Calculated strictly on skills, experience, and domain alignment.</p>
+            </div>
+            
+            <div class="pt-4 border-t border-slate-100">
+                <h3 class="text-sm font-semibold text-slate-900 mb-3">Offer Candidate Decisions</h3>
+                <div class="space-y-2">
+                    {% for dec, count in stats.offers_by_decision.items() %}
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="px-2 py-0.5 rounded text-xs font-semibold
+                            {% if dec == 'ACCEPTED' %}bg-emerald-100 text-emerald-800
+                            {% elif dec == 'DECLINED' %}bg-rose-100 text-rose-800
+                            {% else %}bg-amber-100 text-amber-800{% endif %}">
+                            {{ dec }}
+                        </span>
+                        <span class="font-bold text-slate-700">{{ count }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

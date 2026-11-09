@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Candidates - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900">Synthetic Candidates</h1>
+            <p class="text-sm text-slate-500">Candidate talent pool with verified skills and resume metadata.</p>
+        </div>
+        <div class="text-sm text-slate-500">
+            Showing {{ candidates|length }} candidates
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Candidate ID</th>
+                    <th class="px-6 py-3 text-left">Full Name & Contact</th>
+                    <th class="px-6 py-3 text-left">Experience & Degree</th>
+                    <th class="px-6 py-3 text-left">Resume Specialization</th>
+                    <th class="px-6 py-3 text-left">Skills Profile</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for c in candidates %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-mono font-medium text-indigo-600">{{ c.candidate_id }}</td>
+                    <td class="px-6 py-4">
+                        <div class="font-bold text-slate-900">{{ c.full_name }}</div>
+                        <div class="text-xs text-slate-400 font-mono">{{ c.email }}</div>
+                    </td>
+                    <td class="px-6 py-4 text-slate-600">
+                        <div class="font-medium text-slate-800">{{ c.years_of_experience }} years</div>
+                        <span class="inline-block mt-1 px-2 py-0.5 rounded text-xs bg-slate-100 text-slate-700 font-medium">{{ c.highest_education }}</span>
+                    </td>
+                    <td class="px-6 py-4">
+                        {% if c.resume_artifact %}
+                        <div class="text-xs font-semibold text-indigo-700 bg-indigo-50 px-2 py-1 rounded border border-indigo-100">
+                            {{ c.resume_artifact.domain_specialization }}
+                        </div>
+                        <div class="text-[11px] text-slate-400 font-mono mt-1">SHA: {{ c.resume_artifact.file_sha256[:10] }}...</div>
+                        {% else %}
+                        <span class="text-slate-400 text-xs">No resume attached</span>
+                        {% endif %}
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex flex-wrap gap-1 max-w-xs">
+                            {% for cs in c.skills %}
+                            <span class="px-2 py-0.5 text-xs rounded bg-slate-100 text-slate-700 border border-slate-200">
+                                {{ cs.skill.name }} ({{ cs.proficiency_level[0] }})
+                            </span>
+                            {% endfor %}
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

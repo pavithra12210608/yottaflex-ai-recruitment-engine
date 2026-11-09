@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Interviews - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900">Interviews & Structured Evaluations</h1>
+            <p class="text-sm text-slate-500">Scheduled rounds, panel availability, and structured scorecard ratings.</p>
+        </div>
+        <div class="text-sm text-slate-500">
+            Showing {{ interviews|length }} interviews
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Interview ID</th>
+                    <th class="px-6 py-3 text-left">Candidate & Requisition</th>
+                    <th class="px-6 py-3 text-left">Interviewer</th>
+                    <th class="px-6 py-3 text-left">Stage & Scheduled Time</th>
+                    <th class="px-6 py-3 text-left">Feedback Recommendation</th>
+                    <th class="px-6 py-3 text-left">Ratings (T / C / PS)</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for i in interviews %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-mono font-medium text-indigo-600">{{ i.interview_id }}</td>
+                    <td class="px-6 py-4">
+                        <div class="font-bold text-slate-900">{{ i.application.candidate.full_name }}</div>
+                        <div class="text-xs text-slate-400">{{ i.application.requisition.title }}</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="font-medium text-slate-800">{{ i.interviewer.name }}</div>
+                        <div class="text-[11px] text-slate-400">Avail: {{ i.interviewer.available_days }}</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="font-semibold text-slate-800">{{ i.stage }}</span>
+                        <div class="text-xs font-mono text-slate-500">{{ i.scheduled_at }} ({{ i.scheduled_day }})</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        {% if i.feedback %}
+                        <span class="px-2.5 py-1 rounded-full text-xs font-bold
+                            {% if 'STRONG_HIRE' in i.feedback.overall_recommendation %}bg-emerald-100 text-emerald-800
+                            {% elif 'LEAN_HIRE' in i.feedback.overall_recommendation %}bg-indigo-100 text-indigo-800
+                            {% elif 'NO_HIRE' in i.feedback.overall_recommendation %}bg-rose-100 text-rose-800
+                            {% else %}bg-slate-100 text-slate-700{% endif %}">
+                            {{ i.feedback.overall_recommendation }}
+                        </span>
+                        {% else %}
+                        <span class="text-xs font-semibold text-rose-600 bg-rose-50 px-2 py-1 rounded border border-rose-200">
+                            MISSING FEEDBACK
+                        </span>
+                        {% endif %}
+                    </td>
+                    <td class="px-6 py-4 text-xs font-mono">
+                        {% if i.feedback %}
+                        <span class="font-bold text-indigo-600">{{ i.feedback.technical_rating }}</span> /
+                        <span class="font-bold text-indigo-600">{{ i.feedback.communication_rating }}</span> /
+                        <span class="font-bold text-indigo-600">{{ i.feedback.problem_solving_rating }}</span>
+                        {% else %}
+                        <span class="text-slate-400">-</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

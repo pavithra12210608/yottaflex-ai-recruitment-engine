@@ -1,0 +1,7 @@
+department_id,name,code,cost_center
+DEP-001,AI & Research,AI,CC-101
+DEP-002,Enterprise Platform Engineering,ENG,CC-102
+DEP-003,Forward Deployed & Solutions,FDE,CC-103
+DEP-004,Data Systems & Infrastructure,DATA,CC-104
+DEP-005,Product & User Experience,PROD,CC-105
+DEP-006,Cloud Security & Governance,SEC,CC-106

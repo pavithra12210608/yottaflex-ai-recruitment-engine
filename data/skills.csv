@@ -1,0 +1,16 @@
+skill_id,name,category
+SKL-001,Python,Programming
+SKL-002,FastAPI,Framework
+SKL-003,PyTorch,Machine Learning
+SKL-004,Docker & Kubernetes,DevOps & Cloud
+SKL-005,Distributed Systems,Architecture
+SKL-006,SQL & Relational Databases,Database
+SKL-007,Vector Databases & Embeddings,Machine Learning
+SKL-008,Agentic AI & LLM Orchestration,Machine Learning
+SKL-009,TypeScript & React,Frontend
+SKL-010,System Architecture,Architecture
+SKL-011,Golang,Programming
+SKL-012,CI/CD & Infrastructure as Code,DevOps & Cloud
+SKL-013,GraphQL & REST APIs,Framework
+SKL-014,Data Pipelines & Spark,Data Engineering
+SKL-015,Information Security & IAM,Security

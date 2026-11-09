@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Applications - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900">Candidate Applications</h1>
+            <p class="text-sm text-slate-500">Pipeline applications, screening outcomes, and lifecycle status.</p>
+        </div>
+        <div class="text-sm text-slate-500">
+            Showing {{ applications|length }} applications
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Application ID</th>
+                    <th class="px-6 py-3 text-left">Candidate</th>
+                    <th class="px-6 py-3 text-left">Requisition</th>
+                    <th class="px-6 py-3 text-left">Screening Score</th>
+                    <th class="px-6 py-3 text-left">Applied Date</th>
+                    <th class="px-6 py-3 text-left">Status</th>
+                    <th class="px-6 py-3 text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for a in applications %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-mono font-medium text-xs text-indigo-600">
+                        {{ a.application_id }}
+                        {% if '-DUP' in a.application_id %}
+                        <span class="ml-1 px-1.5 py-0.5 rounded text-[10px] bg-rose-100 text-rose-700 font-bold">DUPLICATE</span>
+                        {% endif %}
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="font-bold text-slate-900">{{ a.candidate.full_name }}</div>
+                        <div class="text-xs text-slate-400 font-mono">{{ a.candidate_id }}</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="font-medium text-slate-800">{{ a.requisition.title }}</div>
+                        <div class="text-xs text-slate-400">{{ a.requisition.department.name }}</div>
+                    </td>
+                    <td class="px-6 py-4">
+                        <div class="flex items-center space-x-2">
+                            <span class="font-bold font-mono {% if a.screening_passed %}text-emerald-600{% else %}text-rose-600{% endif %}">
+                                {{ "{:.1f}".format(a.screening_score) }}
+                            </span>
+                            <span class="px-2 py-0.5 rounded text-xs font-semibold
+                                {% if a.screening_passed %}bg-emerald-100 text-emerald-800{% else %}bg-rose-100 text-rose-800{% endif %}">
+                                {% if a.screening_passed %}PASS{% else %}FAIL{% endif %}
+                            </span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 text-slate-500 font-mono text-xs">{{ a.applied_date }}</td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 rounded-full text-xs font-semibold
+                            {% if a.status == 'HIRED' %}bg-emerald-100 text-emerald-800
+                            {% elif a.status == 'OFFERED' or a.status == 'INTERVIEWING' %}bg-indigo-100 text-indigo-800
+                            {% elif a.status == 'REJECTED' %}bg-rose-100 text-rose-800
+                            {% elif a.status == 'WITHDRAWN' %}bg-slate-100 text-slate-600
+                            {% else %}bg-blue-100 text-blue-800{% endif %}">
+                            {{ a.status }}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 text-center">
+                        <a href="/ui/applications/{{ a.application_id }}" class="text-indigo-600 hover:text-indigo-800 font-medium text-xs">
+                            View 360&deg; Dossier &rarr;
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

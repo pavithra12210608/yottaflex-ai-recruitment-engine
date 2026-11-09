@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+
+{% block title %}Application {{ app.application_id }} - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6 max-w-5xl mx-auto">
+    <!-- Breadcrumb & Nav -->
+    <div class="flex items-center space-x-2 text-sm text-slate-500">
+        <a href="/ui/applications" class="hover:underline text-indigo-600">&larr; Back to Applications</a>
+        <span>/</span>
+        <span class="font-mono text-slate-800">{{ app.application_id }}</span>
+    </div>
+
+    <!-- Header Card -->
+    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div>
+            <div class="flex items-center space-x-3">
+                <h1 class="text-2xl font-bold text-slate-900">{{ app.candidate.full_name }}</h1>
+                <span class="px-3 py-1 rounded-full text-xs font-bold
+                    {% if app.status == 'HIRED' %}bg-emerald-100 text-emerald-800
+                    {% elif app.status == 'OFFERED' or app.status == 'INTERVIEWING' %}bg-indigo-100 text-indigo-800
+                    {% elif app.status == 'REJECTED' %}bg-rose-100 text-rose-800
+                    {% else %}bg-slate-100 text-slate-700{% endif %}">
+                    {{ app.status }}
+                </span>
+            </div>
+            <p class="text-sm text-slate-500 mt-1">
+                Applied for <strong class="text-slate-800">{{ app.requisition.title }}</strong> &bull; Applied: {{ app.applied_date }}
+            </p>
+        </div>
+        <div class="mt-4 md:mt-0 text-right">
+            <div class="text-xs uppercase font-bold text-slate-400">Screening Score</div>
+            <div class="text-3xl font-black {% if app.screening_passed %}text-emerald-600{% else %}text-rose-600{% endif %}">
+                {{ "{:.1f}".format(app.screening_score) }} <span class="text-sm font-normal text-slate-400">/ 100</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Candidate Dossier -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+            <h2 class="text-lg font-bold text-slate-900 border-b pb-2 flex items-center">
+                <i class="fa-solid fa-user text-indigo-500 mr-2"></i> Candidate Background
+            </h2>
+            <div class="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                    <span class="text-xs text-slate-400">Email</span>
+                    <div class="font-medium text-slate-800">{{ app.candidate.email }}</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Experience</span>
+                    <div class="font-medium text-slate-800">{{ app.candidate.years_of_experience }} Years</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Degree</span>
+                    <div class="font-medium text-slate-800">{{ app.candidate.highest_education }}</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Location</span>
+                    <div class="font-medium text-slate-800">{{ app.candidate.current_location }}</div>
+                </div>
+            </div>
+
+            <!-- Resume artifact summary -->
+            {% if app.candidate.resume_artifact %}
+            <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs text-slate-400 uppercase font-semibold">Resume Metadata & Specialization</span>
+                <div class="mt-1 text-sm bg-slate-50 p-3 rounded-lg border border-slate-100 text-slate-700">
+                    <div class="font-semibold text-indigo-700">{{ app.candidate.resume_artifact.domain_specialization }}</div>
+                    <p class="mt-1 text-xs text-slate-600">{{ app.candidate.resume_artifact.text_summary }}</p>
+                    <div class="mt-2 text-[11px] text-slate-400 font-mono">SHA-256: {{ app.candidate.resume_artifact.file_sha256 }}</div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Skills -->
+            <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs text-slate-400 uppercase font-semibold">Evaluated Skills</span>
+                <div class="flex flex-wrap gap-1.5 mt-2">
+                    {% for cs in app.candidate.skills %}
+                    <span class="px-2.5 py-1 text-xs rounded bg-slate-100 text-slate-800 border border-slate-200">
+                        {{ cs.skill.name }} &bull; <strong class="text-indigo-600">{{ cs.proficiency_level }}</strong> ({{ cs.years_experience }}y)
+                    </span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Requisition & Screening Criteria -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+            <h2 class="text-lg font-bold text-slate-900 border-b pb-2 flex items-center">
+                <i class="fa-solid fa-clipboard-check text-indigo-500 mr-2"></i> Requisition & Screening
+            </h2>
+            <div class="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                    <span class="text-xs text-slate-400">Department</span>
+                    <div class="font-medium text-slate-800">{{ app.requisition.department.name }}</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Role Level</span>
+                    <div class="font-medium text-slate-800">{{ app.requisition.role_level }} (Min {{ app.requisition.min_years_experience }}+ yrs)</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Salary Band</span>
+                    <div class="font-medium font-mono text-slate-800">${{ "{:,.0f}".format(app.requisition.min_salary) }} - ${{ "{:,.0f}".format(app.requisition.max_salary) }}</div>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400">Requisition Status</span>
+                    <div class="font-semibold text-slate-800">{{ app.requisition.status }}</div>
+                </div>
+            </div>
+
+            <!-- Screening Details -->
+            <div class="pt-4 border-t border-slate-100">
+                <span class="text-xs text-slate-400 uppercase font-semibold">Screening Assessment Result</span>
+                <div class="mt-2 p-3 rounded-lg border {% if app.screening_passed %}bg-emerald-50 border-emerald-200{% else %}bg-rose-50 border-rose-200{% endif %}">
+                    <div class="flex justify-between items-center text-sm font-bold {% if app.screening_passed %}text-emerald-800{% else %}text-rose-800{% endif %}">
+                        <span>Decision: {% if app.screening_passed %}QUALIFIED FOR INTERVIEW{% else %}SCREENING DISQUALIFIED{% endif %}</span>
+                        <span>{{ "{:.1f}".format(app.screening_score) }}%</span>
+                    </div>
+                    {% if app.rejection_reason %}
+                    <p class="text-xs mt-1 text-rose-700">Reason: {{ app.rejection_reason }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interviews Section -->
+    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <h2 class="text-lg font-bold text-slate-900 border-b pb-2 flex items-center">
+            <i class="fa-solid fa-comments text-indigo-500 mr-2"></i> Structured Interviews & Feedback
+        </h2>
+        {% if app.interviews %}
+        <div class="space-y-4">
+            {% for intv in app.interviews %}
+            <div class="p-4 rounded-lg bg-slate-50 border border-slate-200 text-sm">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <span class="font-mono text-xs text-indigo-600 font-semibold">{{ intv.interview_id }}</span>
+                        <span class="ml-2 font-bold text-slate-900">{{ intv.stage }}</span>
+                        <span class="text-slate-500 text-xs ml-2">with {{ intv.interviewer.name }}</span>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500">{{ intv.scheduled_at }} ({{ intv.scheduled_day }})</span>
+                </div>
+                {% if intv.feedback %}
+                <div class="mt-3 pt-3 border-t border-slate-200 grid grid-cols-4 gap-2 text-xs">
+                    <div>Technical: <strong class="text-slate-800">{{ intv.feedback.technical_rating }}/5</strong></div>
+                    <div>Communication: <strong class="text-slate-800">{{ intv.feedback.communication_rating }}/5</strong></div>
+                    <div>Problem Solving: <strong class="text-slate-800">{{ intv.feedback.problem_solving_rating }}/5</strong></div>
+                    <div>Recommendation: <strong class="text-indigo-700">{{ intv.feedback.overall_recommendation }}</strong></div>
+                </div>
+                <p class="mt-2 text-xs italic text-slate-600">"{{ intv.feedback.notes }}"</p>
+                {% else %}
+                <div class="mt-2 text-xs text-rose-600 font-semibold">⚠️ No feedback submitted yet!</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="text-sm text-slate-400">No interviews scheduled.</p>
+        {% endif %}
+    </div>
+
+    <!-- Offer Section -->
+    {% if app.offer %}
+    <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <h2 class="text-lg font-bold text-slate-900 border-b pb-2 flex items-center">
+            <i class="fa-solid fa-gift text-indigo-500 mr-2"></i> Extended Offer
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <div>
+                <span class="text-xs text-slate-400">Offer ID</span>
+                <div class="font-mono text-indigo-600 font-semibold">{{ app.offer.offer_id }}</div>
+            </div>
+            <div>
+                <span class="text-xs text-slate-400">Offered Salary</span>
+                <div class="font-bold text-slate-900 font-mono">${{ "{:,.2f}".format(app.offer.offered_salary) }}</div>
+            </div>
+            <div>
+                <span class="text-xs text-slate-400">Approval Status</span>
+                <div class="font-semibold text-emerald-700">{{ app.offer.approval_status }}</div>
+            </div>
+            <div>
+                <span class="text-xs text-slate-400">Candidate Decision</span>
+                <div class="font-bold {% if app.offer.candidate_decision == 'ACCEPTED' %}text-emerald-600{% elif app.offer.candidate_decision == 'DECLINED' %}text-rose-600{% else %}text-amber-600{% endif %}">
+                    {{ app.offer.candidate_decision }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

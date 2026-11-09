@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Job Requisitions - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900">Job Requisitions</h1>
+            <p class="text-sm text-slate-500">Approved hiring mandates and required skill specifications.</p>
+        </div>
+        <div class="text-sm text-slate-500">
+            Showing {{ requisitions|length }} requisitions
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Requisition ID</th>
+                    <th class="px-6 py-3 text-left">Role Title</th>
+                    <th class="px-6 py-3 text-left">Department</th>
+                    <th class="px-6 py-3 text-left">Level / Min Exp</th>
+                    <th class="px-6 py-3 text-left">Approved Salary Band</th>
+                    <th class="px-6 py-3 text-left">Open / Close Date</th>
+                    <th class="px-6 py-3 text-left">Status</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for r in requisitions %}
+                <tr class="hover:bg-slate-50 transition">
+                    <td class="px-6 py-4 font-mono font-medium text-indigo-600">{{ r.requisition_id }}</td>
+                    <td class="px-6 py-4 font-bold text-slate-900">{{ r.title }}</td>
+                    <td class="px-6 py-4 text-slate-600">{{ r.department.name }}</td>
+                    <td class="px-6 py-4 text-slate-600"><span class="font-semibold">{{ r.role_level }}</span> &bull; {{ r.min_years_experience }}+ yrs</td>
+                    <td class="px-6 py-4 text-slate-700 font-mono">${{ "{:,.0f}".format(r.min_salary) }} - ${{ "{:,.0f}".format(r.max_salary) }}</td>
+                    <td class="px-6 py-4 text-slate-500 font-mono text-xs">
+                        {{ r.open_date }} {% if r.close_date %}&rarr; <span class="text-rose-600">{{ r.close_date }}</span>{% endif %}
+                    </td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 rounded-full text-xs font-semibold
+                            {% if r.status == 'OPEN' %}bg-emerald-100 text-emerald-800
+                            {% elif r.status == 'CLOSED' %}bg-rose-100 text-rose-800
+                            {% else %}bg-slate-100 text-slate-700{% endif %}">
+                            {{ r.status }}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

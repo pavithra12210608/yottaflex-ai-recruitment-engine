@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Data Validation Engine - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900 flex items-center">
+                <i class="fa-solid fa-shield-halved text-indigo-600 mr-2"></i> Comprehensive Validation Report
+            </h1>
+            <p class="text-sm text-slate-500">
+                Rule engine auditing PK/FK integrity, enum domains, date ordering, and business constraints.
+            </p>
+        </div>
+        <div>
+            <span class="px-3 py-1 rounded-full text-xs font-bold
+                {% if report.status == 'PASS' %}bg-emerald-100 text-emerald-800
+                {% elif report.status == 'FAIL' %}bg-rose-100 text-rose-800
+                {% else %}bg-amber-100 text-amber-800{% endif %}">
+                STATUS: {{ report.status }}
+            </span>
+        </div>
+    </div>
+
+    <!-- Stats Summary -->
+    <div class="grid grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs text-slate-400 font-bold uppercase">Total Integrity Checks</span>
+            <div class="text-2xl font-black text-slate-900 mt-1">{{ report.total_checks }}</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs text-emerald-600 font-bold uppercase">Passed Integrity Checks</span>
+            <div class="text-2xl font-black text-emerald-600 mt-1">{{ report.passed_checks }}</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs text-rose-600 font-bold uppercase">Anomalies / Failures</span>
+            <div class="text-2xl font-black text-rose-600 mt-1">{{ report.failed_checks }}</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs text-slate-400 font-bold uppercase">Report Timestamp</span>
+            <div class="text-xs font-mono text-slate-600 mt-2 truncate">{{ report.timestamp }}</div>
+        </div>
+    </div>
+
+    <!-- Findings Table -->
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 font-semibold text-slate-600">
+                <tr>
+                    <th class="px-6 py-3 text-left">Severity</th>
+                    <th class="px-6 py-3 text-left">Check Name</th>
+                    <th class="px-6 py-3 text-left">Entity</th>
+                    <th class="px-6 py-3 text-left">Record ID</th>
+                    <th class="px-6 py-3 text-left">Validation Finding & Description</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+                {% for f in report.findings %}
+                <tr class="hover:bg-slate-50 transition {% if f.severity == 'FAIL' %}bg-rose-50/40{% endif %}">
+                    <td class="px-6 py-4">
+                        <span class="px-2 py-0.5 rounded text-xs font-bold
+                            {% if f.severity == 'PASS' %}bg-emerald-100 text-emerald-800
+                            {% elif f.severity == 'FAIL' %}bg-rose-100 text-rose-800
+                            {% else %}bg-amber-100 text-amber-800{% endif %}">
+                            {{ f.severity }}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 font-mono font-medium text-xs text-slate-800">{{ f.check_name }}</td>
+                    <td class="px-6 py-4 text-slate-600 font-medium">{{ f.entity }}</td>
+                    <td class="px-6 py-4 font-mono text-xs text-indigo-600">
+                        {{ f.record_id or "-" }}
+                    </td>
+                    <td class="px-6 py-4 text-slate-700 text-xs">
+                        {{ f.message }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

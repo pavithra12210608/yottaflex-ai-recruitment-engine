@@ -1,0 +1,47 @@
+[
+  {
+    "anomaly_id": "ANOM-0001",
+    "issue_type": "DUPLICATE_APPLICATION",
+    "target_entity": "applications",
+    "target_id": "APP-REQ-2026-000001-CAND-000001-DUP",
+    "details": "Candidate CAND-000001 applied duplicate times to requisition REQ-2026-000001.",
+    "severity": "ERROR",
+    "expected_resolution": "De-duplicate duplicate submission and retain original application."
+  },
+  {
+    "anomaly_id": "ANOM-0002",
+    "issue_type": "CLOSED_ROLE_ACTIVE_APPLICATION",
+    "target_entity": "applications",
+    "target_id": "APP-REQ-2026-000015-CLOSED-ACTIVE",
+    "details": "Requisition REQ-2026-000015 is CLOSED, but application APP-REQ-2026-000015-CLOSED-ACTIVE is still in active status 'INTERVIEWING'.",
+    "severity": "ERROR",
+    "expected_resolution": "Close active pipeline or transition application to REJECTED/CLOSED."
+  },
+  {
+    "anomaly_id": "ANOM-0003",
+    "issue_type": "INTERVIEW_UNAVAILABLE_INTERVIEWER",
+    "target_entity": "interviews",
+    "target_id": "INT-2026-000001",
+    "details": "Interview INT-2026-000001 scheduled on Tuesday, but interviewer EMP-0001 is only available on: Friday,Monday,Wednesday.",
+    "severity": "ERROR",
+    "expected_resolution": "Reschedule interview to one of interviewer's available days (Friday,Monday,Wednesday)."
+  },
+  {
+    "anomaly_id": "ANOM-0004",
+    "issue_type": "MISSING_FEEDBACK_STAGE_ADVANCED",
+    "target_entity": "feedback",
+    "target_id": "FB-INT-2026-000002-EMP-0002",
+    "details": "Application APP-REQ-2026-000052-CAND-001296 advanced to 'OFFERED' but interview INT-2026-000002 has no submitted feedback.",
+    "severity": "ERROR",
+    "expected_resolution": "Block stage progression until mandatory interview feedback is recorded."
+  },
+  {
+    "anomaly_id": "ANOM-0005",
+    "issue_type": "SALARY_OUTSIDE_BAND",
+    "target_entity": "offers",
+    "target_id": "OFF-2026-000001",
+    "details": "Offer OFF-2026-000001 salary ($330,000.00) exceeds approved requisition REQ-2026-000097 range [$150,000.00 - $220,000.00].",
+    "severity": "ERROR",
+    "expected_resolution": "Adjust offer compensation within approved salary band or request formal executive compensation committee approval."
+  }
+]

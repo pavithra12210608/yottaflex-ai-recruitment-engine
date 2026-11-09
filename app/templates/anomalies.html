@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Detected Anomalies & Negative Test Scenarios - YottaFlex AI{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="flex justify-between items-center pb-4 border-b border-slate-200">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-900 flex items-center">
+                <i class="fa-solid fa-triangle-exclamation text-rose-600 mr-2"></i> Intentional Anomalies & Ground Truth
+            </h1>
+            <p class="text-sm text-slate-500">
+                Negative scenarios injected deterministically to benchmark and validate the compliance engine.
+            </p>
+        </div>
+        <div>
+            <span class="px-3 py-1 bg-rose-100 text-rose-800 rounded-full text-xs font-bold">
+                {{ anomalies|length }} Known Anomalies
+            </span>
+        </div>
+    </div>
+
+    <!-- Architectural Isolation Note -->
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-900 flex items-start space-x-3">
+        <i class="fa-solid fa-circle-info text-amber-600 text-base mt-0.5"></i>
+        <div>
+            <strong>Ground Truth Architectural Separation:</strong>
+            These expected anomaly labels are stored in a strictly decoupled artifact (<code class="bg-amber-100 px-1 py-0.5 rounded font-mono">data/ground_truth.json</code> &amp; <code class="bg-amber-100 px-1 py-0.5 rounded font-mono">data/ground_truth.csv</code>).
+            They are never passed as inputs or features to any generation or screening model, ensuring zero data leakage.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-4">
+        {% for a in anomalies %}
+        <div class="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-3">
+            <div class="flex flex-col sm:flex-row justify-between sm:items-center border-b pb-3 border-slate-100">
+                <div class="flex items-center space-x-3">
+                    <span class="font-mono text-xs font-bold bg-slate-100 text-slate-700 px-2 py-0.5 rounded">{{ a.anomaly_id }}</span>
+                    <span class="font-mono text-sm font-bold text-rose-700 bg-rose-50 px-2.5 py-1 rounded border border-rose-200">
+                        {{ a.issue_type }}
+                    </span>
+                    <span class="text-xs text-slate-400 font-medium">Target: <strong class="text-slate-700">{{ a.target_entity }}</strong> (<code class="text-indigo-600 font-mono">{{ a.target_id }}</code>)</span>
+                </div>
+                <div class="mt-2 sm:mt-0">
+                    <span class="px-2 py-0.5 bg-rose-600 text-white rounded text-xs font-bold">{{ a.severity }}</span>
+                </div>
+            </div>
+
+            <div class="text-sm text-slate-800">
+                <strong>Description:</strong> {{ a.details }}
+            </div>
+
+            <div class="text-xs bg-slate-50 p-3 rounded-lg border border-slate-100 text-slate-600">
+                <strong class="text-slate-800">Expected Resolution:</strong> {{ a.expected_resolution }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
